@@ -1,0 +1,1478 @@
+
+--- 2026-07-15T18:15:12.788Z debug
+🪵  Writing logs to "/Users/jesse/Documents/Treeniseuranta sovellus/punttis-pwa/.cf-logs/wrangler-2026-07-15_18-15-12_655.log"
+---
+
+--- 2026-07-15T18:15:12.788Z debug
+.env file not found at "/Users/jesse/Documents/Treeniseuranta sovellus/punttis-pwa/.env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-07-15T18:15:12.789Z debug
+.env file not found at "/Users/jesse/Documents/Treeniseuranta sovellus/punttis-pwa/.env.local". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-07-15T18:15:12.794Z log
+
+ ⛅️ wrangler 4.111.0
+────────────────────
+---
+
+--- 2026-07-15T18:15:12.807Z debug
+Running autoconfig detection in /Users/jesse/Documents/Treeniseuranta sovellus/punttis-pwa...
+---
+
+--- 2026-07-15T18:15:12.808Z debug
+Metrics dispatcher: Posting data {"deviceId":"4523d709-ade0-4407-947d-366b9a157498","event":"wrangler command started","timestamp":1784139312808,"properties":{"amplitude_session_id":1784139312799,"amplitude_event_id":0,"wranglerVersion":"4.111.0","wranglerMajorVersion":4,"wranglerMinorVersion":111,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 25.5.0: Tue Jun  9 22:28:17 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8142","nodeVersion":24,"packageManager":"npm","isFirstUsage":false,"configFileType":"jsonc","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":true,"agent":"codex","argsUsed":[],"argsCombination":"","sanitizedCommand":"deploy","sanitizedArgs":{},"currentAgentSkillsInstalled":false}}
+---
+
+--- 2026-07-15T18:15:12.813Z debug
+Metrics dispatcher: Posting data {"deviceId":"4523d709-ade0-4407-947d-366b9a157498","event":"autoconfig_process_started","timestamp":1784139312813,"properties":{"amplitude_session_id":1784139312807,"amplitude_event_id":0,"wranglerVersion":"4.111.0","wranglerMajorVersion":4,"wranglerMinorVersion":111,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 25.5.0: Tue Jun  9 22:28:17 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8142","nodeVersion":24,"packageManager":"npm","isFirstUsage":false,"configFileType":"none","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":"codex","category":"Workers","os":"darwin:arm64","autoConfigId":"f5421e8c-3475-4e7d-907c-670f88bfaa40","command":"wrangler deploy","dryRun":false,"currentAgentSkillsInstalled":false}}
+---
+
+--- 2026-07-15T18:15:12.813Z debug
+Metrics dispatcher: Posting data {"deviceId":"4523d709-ade0-4407-947d-366b9a157498","event":"autoconfig_detection_started","timestamp":1784139312813,"properties":{"amplitude_session_id":1784139312807,"amplitude_event_id":0,"wranglerVersion":"4.111.0","wranglerMajorVersion":4,"wranglerMinorVersion":111,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 25.5.0: Tue Jun  9 22:28:17 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8142","nodeVersion":24,"packageManager":"npm","isFirstUsage":false,"configFileType":"none","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":"codex","category":"Workers","os":"darwin:arm64","autoConfigId":"f5421e8c-3475-4e7d-907c-670f88bfaa40","command":"wrangler deploy","currentAgentSkillsInstalled":false}}
+---
+
+--- 2026-07-15T18:15:12.814Z debug
+Metrics dispatcher: Posting data {"deviceId":"4523d709-ade0-4407-947d-366b9a157498","event":"autoconfig_detection_completed","timestamp":1784139312814,"properties":{"amplitude_session_id":1784139312807,"amplitude_event_id":0,"wranglerVersion":"4.111.0","wranglerMajorVersion":4,"wranglerMinorVersion":111,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 25.5.0: Tue Jun  9 22:28:17 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8142","nodeVersion":24,"packageManager":"npm","isFirstUsage":false,"configFileType":"none","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":"codex","category":"Workers","os":"darwin:arm64","autoConfigId":"f5421e8c-3475-4e7d-907c-670f88bfaa40","configured":true,"success":true,"currentAgentSkillsInstalled":false}}
+---
+
+--- 2026-07-15T18:15:12.822Z debug
+Metrics dispatcher: Posting data {"deviceId":"4523d709-ade0-4407-947d-366b9a157498","event":"autoconfig_process_ended","timestamp":1784139312822,"properties":{"amplitude_session_id":1784139312808,"amplitude_event_id":0,"wranglerVersion":"4.111.0","wranglerMajorVersion":4,"wranglerMinorVersion":111,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 25.5.0: Tue Jun  9 22:28:17 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8142","nodeVersion":24,"packageManager":"npm","isFirstUsage":false,"configFileType":"none","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":"codex","category":"Workers","os":"darwin:arm64","autoConfigId":"f5421e8c-3475-4e7d-907c-670f88bfaa40","command":"wrangler deploy","dryRun":false,"success":true,"currentAgentSkillsInstalled":false}}
+---
+
+--- 2026-07-15T18:15:12.861Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts
+---
+
+--- 2026-07-15T18:15:12.861Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:12.861Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:12.861Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:12.861Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:12.863Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/memberships
+---
+
+--- 2026-07-15T18:15:12.863Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:12.863Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:12.863Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:12.863Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:13.379Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-07-15T18:15:13.379Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:13.379Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:13.379Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:15.710Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-07-15T18:15:15.710Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:15.710Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:15.710Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:15.712Z debug
+Saving to cache: {"account":{"id":"9d9294c62279b0f8e67d2b3da0f9abc7","name":"Jes.heinonen@gmail.com's Account"}}
+---
+
+--- 2026-07-15T18:15:15.731Z debug
+Starting verifyWorkerMatchesCITag() with tag: undefined, name: punttis
+---
+
+--- 2026-07-15T18:15:15.731Z debug
+No WRANGLER_CI_MATCH_TAG variable provided, aborting verifyWorkerMatchesCITag()
+---
+
+--- 2026-07-15T18:15:15.731Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/workers/services/punttis
+---
+
+--- 2026-07-15T18:15:15.731Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:15.731Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:15.731Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:15.731Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:17.830Z debug
+-- START CF API RESPONSE: Not Found 404
+---
+
+--- 2026-07-15T18:15:17.830Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:17.830Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:17.830Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:17.832Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/workers/scripts/punttis/secrets
+---
+
+--- 2026-07-15T18:15:17.832Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:17.832Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:17.832Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:17.832Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:20.512Z debug
+-- START CF API RESPONSE: Not Found 404
+---
+
+--- 2026-07-15T18:15:20.512Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:20.512Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:20.512Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:20.513Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/workers/scripts/punttis/deployments
+---
+
+--- 2026-07-15T18:15:20.513Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:20.513Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:20.513Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:20.513Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:22.575Z debug
+-- START CF API RESPONSE: Not Found 404
+---
+
+--- 2026-07-15T18:15:22.575Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:22.575Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:22.575Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:22.576Z info
+🌀 Building list of assets...
+---
+
+--- 2026-07-15T18:15:22.578Z info
+✨ Read 65 files from the assets directory /Users/jesse/Documents/Treeniseuranta sovellus/punttis-pwa/dist
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/.DS_Store
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/assets
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/favicon.svg
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/index.html
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/manifest.webmanifest
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/pwa-192.svg
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/pwa-512.svg
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/sw.js
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/workbox-dcde9eb3.js
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/alataljasoutu_levea_tanko.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/alataljasoutu_tanko.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/alataljasoutu_v_kahva.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/dippi.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/dippi_lisapaino.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/face_pull.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/hartiankohotus_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/hartiankohotus_tanko.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/hauiskaanto_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/hauiskaanto_koysi_talja.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/hauiskaanto_talja_tanko.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/hauiskaanto_tanko.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/jalkaprassi.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/juoksu_ulkona.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/juoksumatto.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/kulmasoutu_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/kyykky_smith.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/leuanveto.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/leuanveto_lisapaino.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/maastaveto_tanko.webp
+---
+
+--- 2026-07-15T18:15:22.578Z debug
+/exercises/maastaveto_trap_bar.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/ojentajapunnerrus_talja_koysi.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/ojentajapunnerrus_talja_tanko.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/pec_deck.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/penkkipunnerrus_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/penkkipunnerrus_levea_ote.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/penkkipunnerrus_tanko.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/pohjenousu_istuen.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/pohjenousu_seisten_smith.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/pullover_tangolla.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/pystypunnerrus_istuen_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/pystypunnerrus_seisten_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/pystypunnerrus_tanko.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/pystysoutu_talja.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/pystysoutu_tanko.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/reiden_koukistus_laite_istuen.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/reiden_koukistus_laitteessa_maaten.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/reiden_ojennus_laite.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/scott_hauiskaanto_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/seated_row_soutulaitteeessa.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/selanojennus.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/selanojennus_laite.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/t_kulmasoutu.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/takakyykky_tanko.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/vatsarutistus_laite.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/vatsarutistus_talja.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/vinopenkkipunnerrus_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/vinopenkkipunnerrus_smith.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/vinopenkkipunnerrus_tanko.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/vipunostot_talja.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/ylatalja_kapea_ote.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/exercises/ylatalja_levea_ote.webp
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/assets/index-CeOZfe_1.css
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/assets/index-D3ZdglK8.js
+---
+
+--- 2026-07-15T18:15:22.579Z debug
+/assets/workbox-window.prod.es5-BBnX5xw4.js
+---
+
+--- 2026-07-15T18:15:22.590Z info
+🌀 Starting asset upload...
+---
+
+--- 2026-07-15T18:15:22.591Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/workers/scripts/punttis/assets-upload-session
+---
+
+--- 2026-07-15T18:15:22.591Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:22.591Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:22.591Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:22.591Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:26.508Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-07-15T18:15:26.509Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.509Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.509Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:26.509Z info
+🌀 Found 61 new or modified static assets to upload. Proceeding with upload...
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /favicon.svg
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/leuanveto.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/vatsarutistus_talja.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/hauiskaanto_talja_tanko.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/ojentajapunnerrus_talja_koysi.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/pystypunnerrus_tanko.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/hauiskaanto_koysi_talja.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/ojentajapunnerrus_talja_tanko.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/reiden_koukistus_laitteessa_maaten.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/alataljasoutu_v_kahva.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/dippi.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/vinopenkkipunnerrus_tanko.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/alataljasoutu_tanko.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/pec_deck.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/vinopenkkipunnerrus_smith.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/seated_row_soutulaitteeessa.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/vatsarutistus_laite.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/reiden_koukistus_laite_istuen.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/penkkipunnerrus_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /.DS_Store
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /assets/index-D3ZdglK8.js
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /manifest.webmanifest
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/hauiskaanto_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/t_kulmasoutu.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/hauiskaanto_tanko.webp
+---
+
+--- 2026-07-15T18:15:26.510Z info
++ /exercises/pystypunnerrus_seisten_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/pystysoutu_tanko.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/pullover_tangolla.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/pystysoutu_talja.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/takakyykky_tanko.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/ylatalja_levea_ote.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/penkkipunnerrus_levea_ote.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/pohjenousu_istuen.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/selanojennus_laite.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/face_pull.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/juoksumatto.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/maastaveto_trap_bar.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/vipunostot_talja.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/selanojennus.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /assets/workbox-window.prod.es5-BBnX5xw4.js
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /assets/index-CeOZfe_1.css
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /index.html
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/hartiankohotus_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/juoksu_ulkona.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/leuanveto_lisapaino.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/hartiankohotus_tanko.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/vinopenkkipunnerrus_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/ylatalja_kapea_ote.webp
+---
+
+--- 2026-07-15T18:15:26.511Z info
++ /exercises/scott_hauiskaanto_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:26.512Z info
++ /exercises/pystypunnerrus_istuen_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:26.512Z info
++ /exercises/pohjenousu_seisten_smith.webp
+---
+
+--- 2026-07-15T18:15:26.512Z info
++ /exercises/maastaveto_tanko.webp
+---
+
+--- 2026-07-15T18:15:26.512Z info
++ /exercises/kyykky_smith.webp
+---
+
+--- 2026-07-15T18:15:26.512Z info
++ /exercises/dippi_lisapaino.webp
+---
+
+--- 2026-07-15T18:15:26.512Z info
++ /exercises/penkkipunnerrus_tanko.webp
+---
+
+--- 2026-07-15T18:15:26.512Z info
++ /exercises/alataljasoutu_levea_tanko.webp
+---
+
+--- 2026-07-15T18:15:26.512Z info
++ /exercises/reiden_ojennus_laite.webp
+---
+
+--- 2026-07-15T18:15:26.512Z info
++ /exercises/jalkaprassi.webp
+---
+
+--- 2026-07-15T18:15:26.512Z info
++ /exercises/kulmasoutu_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:26.512Z info
++ /sw.js
+---
+
+--- 2026-07-15T18:15:26.512Z info
++ /workbox-dcde9eb3.js
+---
+
+--- 2026-07-15T18:15:26.523Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/workers/assets/upload?base64=true
+---
+
+--- 2026-07-15T18:15:26.523Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.523Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.523Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.525Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/workers/assets/upload?base64=true
+---
+
+--- 2026-07-15T18:15:26.525Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.525Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.525Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.527Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/workers/assets/upload?base64=true
+---
+
+--- 2026-07-15T18:15:26.527Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.527Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.527Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.529Z debug
+BODY: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.529Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:26.530Z debug
+BODY: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.530Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:26.533Z debug
+BODY: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:26.533Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:28.468Z debug
+-- START CF API RESPONSE: Accepted 202
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:28.469Z info
+Uploaded 20 of 61 assets
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /manifest.webmanifest
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/hauiskaanto_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/t_kulmasoutu.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/hauiskaanto_tanko.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/pystypunnerrus_seisten_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/pystysoutu_tanko.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/pullover_tangolla.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/pystysoutu_talja.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/takakyykky_tanko.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/ylatalja_levea_ote.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/penkkipunnerrus_levea_ote.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/pohjenousu_istuen.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/selanojennus_laite.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/face_pull.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/juoksumatto.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/maastaveto_trap_bar.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/vipunostot_talja.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /exercises/selanojennus.webp
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /assets/workbox-window.prod.es5-BBnX5xw4.js
+---
+
+--- 2026-07-15T18:15:28.469Z debug
+✨ /assets/index-CeOZfe_1.css
+---
+
+--- 2026-07-15T18:15:28.676Z debug
+-- START CF API RESPONSE: Accepted 202
+---
+
+--- 2026-07-15T18:15:28.676Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:28.676Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:28.676Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:28.677Z info
+Uploaded 41 of 61 assets
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /favicon.svg
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/leuanveto.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/vatsarutistus_talja.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/hauiskaanto_talja_tanko.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/ojentajapunnerrus_talja_koysi.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/pystypunnerrus_tanko.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/hauiskaanto_koysi_talja.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/ojentajapunnerrus_talja_tanko.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/reiden_koukistus_laitteessa_maaten.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/alataljasoutu_v_kahva.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/dippi.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/vinopenkkipunnerrus_tanko.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/alataljasoutu_tanko.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/pec_deck.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/vinopenkkipunnerrus_smith.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/seated_row_soutulaitteeessa.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/vatsarutistus_laite.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/reiden_koukistus_laite_istuen.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /exercises/penkkipunnerrus_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /.DS_Store
+---
+
+--- 2026-07-15T18:15:28.677Z debug
+✨ /assets/index-D3ZdglK8.js
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+-- START CF API RESPONSE: Created 201
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:29.499Z info
+Uploaded 61 of 61 assets
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /index.html
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/hartiankohotus_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/juoksu_ulkona.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/leuanveto_lisapaino.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/hartiankohotus_tanko.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/vinopenkkipunnerrus_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/ylatalja_kapea_ote.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/scott_hauiskaanto_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/pystypunnerrus_istuen_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/pohjenousu_seisten_smith.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/maastaveto_tanko.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/kyykky_smith.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/dippi_lisapaino.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/penkkipunnerrus_tanko.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/alataljasoutu_levea_tanko.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/reiden_ojennus_laite.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/jalkaprassi.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /exercises/kulmasoutu_kasipainot.webp
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /sw.js
+---
+
+--- 2026-07-15T18:15:29.499Z debug
+✨ /workbox-dcde9eb3.js
+---
+
+--- 2026-07-15T18:15:29.500Z log
+✨ Success! Uploaded 61 files (2 already uploaded) (2.99 sec)
+
+---
+
+--- 2026-07-15T18:15:29.543Z log
+Total Upload: 68.97 KiB / gzip: 17.07 KiB
+---
+
+--- 2026-07-15T18:15:29.545Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/workers/scripts/punttis/settings
+---
+
+--- 2026-07-15T18:15:29.545Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:29.545Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:29.545Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:29.545Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:32.153Z debug
+-- START CF API RESPONSE: Not Found 404
+---
+
+--- 2026-07-15T18:15:32.153Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:32.153Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:32.153Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:32.154Z debug
+No settings found
+---
+
+--- 2026-07-15T18:15:32.155Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/r2/buckets/punttis-media
+---
+
+--- 2026-07-15T18:15:32.155Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:32.155Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:32.155Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:32.155Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:33.671Z debug
+-- START CF API RESPONSE: Forbidden 403
+---
+
+--- 2026-07-15T18:15:33.671Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:33.671Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:33.671Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:33.673Z log
+
+---
+
+--- 2026-07-15T18:15:33.706Z error
+✘ [ERROR] A request to the Cloudflare API (/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/r2/buckets/punttis-media) failed.
+
+  Authentication error [code: 10000]
+
+
+---
+
+--- 2026-07-15T18:15:33.708Z log
+Getting User settings...
+---
+
+--- 2026-07-15T18:15:33.708Z debug
+Metrics dispatcher: Posting data {"deviceId":"4523d709-ade0-4407-947d-366b9a157498","event":"wrangler command errored","timestamp":1784139333708,"properties":{"amplitude_session_id":1784139312799,"amplitude_event_id":1,"wranglerVersion":"4.111.0","wranglerMajorVersion":4,"wranglerMinorVersion":111,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 25.5.0: Tue Jun  9 22:28:17 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8142","nodeVersion":24,"packageManager":"npm","isFirstUsage":false,"configFileType":"jsonc","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":true,"agent":"codex","argsUsed":[],"argsCombination":"","sanitizedCommand":"deploy","sanitizedArgs":{},"durationMs":20883,"errorType":"AuthenticationError","currentAgentSkillsInstalled":false}}
+---
+
+--- 2026-07-15T18:15:33.710Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/user
+---
+
+--- 2026-07-15T18:15:33.710Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:33.710Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:33.710Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:33.710Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:34.617Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-07-15T18:15:34.617Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:34.617Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:34.617Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:34.618Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts
+---
+
+--- 2026-07-15T18:15:34.618Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:34.618Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:34.618Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:34.618Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:34.619Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/memberships
+---
+
+--- 2026-07-15T18:15:34.619Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:34.619Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:34.619Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:34.619Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:15:35.035Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-07-15T18:15:35.035Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:35.035Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:35.035Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:36.944Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-07-15T18:15:36.944Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:36.944Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:36.944Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:15:36.945Z log
+👋 You are logged in with an OAuth Token, associated with the email jes.heinonen@gmail.com.
+---
+
+--- 2026-07-15T18:15:36.945Z log
+🔐 Credentials are stored in: /Users/jesse/Documents/Treeniseuranta sovellus/punttis-pwa/.cf-config/.wrangler/config/default.toml
+---
+
+--- 2026-07-15T18:15:36.948Z log
+┌──────────────────────────────────┬──────────────────────────────────┐
+│ Account Name                     │ Account ID                       │
+├──────────────────────────────────┼──────────────────────────────────┤
+│ Jes.heinonen@gmail.com's Account │ 9d9294c62279b0f8e67d2b3da0f9abc7 │
+└──────────────────────────────────┴──────────────────────────────────┘
+---
+
+--- 2026-07-15T18:15:36.948Z log
+🔓 Token Permissions:
+---
+
+--- 2026-07-15T18:15:36.948Z log
+Scope (Access)
+---
+
+--- 2026-07-15T18:15:36.949Z log
+- account (read)
+---
+
+--- 2026-07-15T18:15:36.949Z log
+- user (read)
+---
+
+--- 2026-07-15T18:15:36.949Z log
+- workers_scripts (write)
+---
+
+--- 2026-07-15T18:15:36.949Z log
+- d1 (write)
+---
+
+--- 2026-07-15T18:15:36.949Z log
+- offline_access 
+---
+
+--- 2026-07-15T18:15:36.949Z log
+
+---
+
+--- 2026-07-15T18:15:36.949Z log
+▲ [WARNING] Wrangler is missing some expected Oauth scopes. To fix this, run `wrangler login` to refresh your token. The missing scopes are:
+
+  - workers:write
+  - workers_kv:write
+  - workers_routes:write
+  - workers_tail:read
+  - pages:write
+  - zone:read
+  - ssl_certs:write
+  - ai:write
+  - ai-search:write
+  - ai-search:run
+  - websearch.run
+  - agent-memory:write
+  - queues:write
+  - pipelines:write
+  - secrets_store:write
+  - artifacts:write
+  - flagship:write
+  - containers:write
+  - cloudchamber:write
+  - connectivity:admin
+  - email_routing:write
+  - email_sending:write
+  - browser:write
+  - challenge-widgets.write
+
+
+---
+
+--- 2026-07-15T18:15:36.950Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/memberships
+---
+
+--- 2026-07-15T18:15:36.950Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:36.950Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:36.950Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:15:36.950Z debug
+-- END CF API REQUEST
+---

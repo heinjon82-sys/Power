@@ -1,0 +1,23 @@
+{
+  "name": "punttis",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-07-15",
+  "preview_urls": false,
+  "vars": {
+    "ACCESS_TEAM_DOMAIN": "https://patient-firefly-5804.cloudflareaccess.com",
+    "ACCESS_AUD": "a5a7f979cd1ca437592908f98b145460d16fd868dad4d36d123b138ee63afa12",
+    "OWNER_EMAIL": "jes.heinonen@gmail.com"
+  },
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "punttis",
+        "database_id": "e2c372e3-0ae6-43b3-9268-74abae766a58",
+    "migrations_dir": "migrations"
+  }],
+  "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "punttis-media" }]
+}

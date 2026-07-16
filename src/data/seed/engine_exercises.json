@@ -1,0 +1,1840 @@
+[
+  {
+    "exercise_id": "alataljasoutu_tanko",
+    "name": "Alataljasoutu tangolla",
+    "movement_class": "compound",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_2_5",
+    "laite_id": "alatalja_istuen",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "hauis"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "hauis": 0.5
+    },
+    "fatigue_cost": 0.9,
+    "default_step": 5,
+    "family_id": "family_kulmasoutu",
+    "progressioprofiili_id": "YLAVETO_MONINIVEL",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "alataljasoutu_v_kahva",
+    "name": "Alataljasoutu V-kahvalla",
+    "movement_class": "compound",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_2_5",
+    "laite_id": "alatalja_istuen",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "hauis"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "hauis": 0.5
+    },
+    "fatigue_cost": 0.9,
+    "default_step": 5,
+    "family_id": "family_kulmasoutu",
+    "progressioprofiili_id": "YLAVETO_MONINIVEL",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "v_kahva",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "alataljasoutu_levea_tanko",
+    "name": "Alataljasoutu leveällä tangolla",
+    "movement_class": "compound",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_2_5",
+    "laite_id": "alatalja_istuen",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "hauis"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "hauis": 0.4
+    },
+    "fatigue_cost": 0.9,
+    "default_step": 5,
+    "family_id": "family_kulmasoutu",
+    "progressioprofiili_id": "YLAVETO_MONINIVEL",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "seated_row_soutulaitteeessa",
+    "name": "Kulmasoutu laitteessa",
+    "movement_class": "compound",
+    "equipment": "machine",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "kulmasoutulaite",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "hauis"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "hauis": 0.5
+    },
+    "fatigue_cost": 0.9,
+    "default_step": 5,
+    "family_id": "family_kulmasoutu",
+    "progressioprofiili_id": "YLAVETO_MONINIVEL",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "kulmasoutu_kasipainot",
+    "name": "Kulmasoutu käsipainoilla",
+    "movement_class": "compound",
+    "equipment": "dumbbell",
+    "device_profile_id": "dumbbell_standard",
+    "laite_id": "kasipainot",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "hauis"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "hauis": 0.5
+    },
+    "fatigue_cost": 0.9,
+    "default_step": 2.5,
+    "family_id": "family_kulmasoutu",
+    "progressioprofiili_id": "YLAVETO_MONINIVEL",
+    "kuorman_seuranta": "per_kasi",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "kasipainot",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "kulmasoutu_tanko",
+    "name": "Kulmasoutu tangolla",
+    "movement_class": "compound",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "hauis"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "hauis": 0.5
+    },
+    "fatigue_cost": 1,
+    "default_step": 2.5,
+    "family_id": "family_kulmasoutu",
+    "progressioprofiili_id": "YLAVETO_MONINIVEL",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "t_kulmasoutu",
+    "name": "T-kulmasoutu",
+    "movement_class": "compound",
+    "equipment": "machine",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "t_kulmasoutu",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "hauis"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "hauis": 0.5
+    },
+    "fatigue_cost": 1,
+    "default_step": 5,
+    "family_id": "family_kulmasoutu",
+    "progressioprofiili_id": "YLAVETO_MONINIVEL",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "ylatalja_levea_ote",
+    "name": "Ylätalja leveällä otteella",
+    "movement_class": "compound",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_2_5",
+    "laite_id": "ylatalja_istuen",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "hauis"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "hauis": 0.5
+    },
+    "fatigue_cost": 0.9,
+    "default_step": 5,
+    "family_id": "family_ylatalja",
+    "progressioprofiili_id": "YLAVETO_MONINIVEL",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "levea_ote",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "ylatalja_kapea_ote",
+    "name": "Ylätalja kapealla otteella",
+    "movement_class": "compound",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_2_5",
+    "laite_id": "ylatalja_istuen",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "hauis"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "hauis": 0.5
+    },
+    "fatigue_cost": 0.9,
+    "default_step": 5,
+    "family_id": "family_ylatalja",
+    "progressioprofiili_id": "YLAVETO_MONINIVEL",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "kapea_ote",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "leuanveto",
+    "name": "Leuanveto",
+    "movement_class": "compound",
+    "equipment": "bodyweight",
+    "device_profile_id": "bodyweight",
+    "laite_id": "leuanvetotanko",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "hauis"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "hauis": 0.6
+    },
+    "fatigue_cost": 1,
+    "default_step": 2.5,
+    "family_id": "family_leuanveto",
+    "progressioprofiili_id": "KEHONPAINO",
+    "kuorman_seuranta": "kehonpaino",
+    "siirtyma_liike_id": "leuanveto_lisapaino",
+    "aloitus_lisapaino_kg": 5,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "leuanveto_lisapaino",
+    "name": "Leuanveto lisäpainolla",
+    "movement_class": "compound",
+    "equipment": "bodyweight",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "leuanveto_lisapaino",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "hauis"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "hauis": 0.6
+    },
+    "fatigue_cost": 1,
+    "default_step": 2.5,
+    "family_id": "family_leuanveto",
+    "progressioprofiili_id": "KEHONPAINO_LISAPAINO",
+    "kuorman_seuranta": "lisapaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "lisapaino",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "pullover_tangolla",
+    "name": "Pullover taljassa tangolla",
+    "movement_class": "isolation",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "talja_seisten",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "ojentaja"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "ojentaja": 0.4
+    },
+    "fatigue_cost": 0.6,
+    "default_step": 5,
+    "family_id": "family_pullover",
+    "progressioprofiili_id": "ERISTAVA_KESKI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "pullover_koysi",
+    "name": "Pullover taljassa köydellä",
+    "movement_class": "isolation",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "talja_seisten",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "ojentaja"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "ojentaja": 0.4
+    },
+    "fatigue_cost": 0.6,
+    "default_step": 5,
+    "family_id": "family_pullover",
+    "progressioprofiili_id": "ERISTAVA_KESKI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "koysi",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "pystysoutu_talja",
+    "name": "Pystysoutu taljassa",
+    "movement_class": "compound",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "talja_seisten",
+    "primary_muscles": [
+      "sivuolkapää"
+    ],
+    "secondary_muscles": [
+      "etuolkapaa",
+      "hauis"
+    ],
+    "muscle_weights": {
+      "sivuolkapää": 1,
+      "etuolkapaa": 0.5,
+      "hauis": 0.4
+    },
+    "fatigue_cost": 0.7,
+    "default_step": 5,
+    "family_id": "family_pystysoutu",
+    "progressioprofiili_id": "ERISTAVA_KESKI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "pystysoutu_tanko",
+    "name": "Pystysoutu tangolla",
+    "movement_class": "compound",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "sivuolkapää"
+    ],
+    "secondary_muscles": [
+      "etuolkapaa",
+      "hauis"
+    ],
+    "muscle_weights": {
+      "sivuolkapää": 1,
+      "etuolkapaa": 0.5,
+      "hauis": 0.4
+    },
+    "fatigue_cost": 0.8,
+    "default_step": 2.5,
+    "family_id": "family_pystysoutu",
+    "progressioprofiili_id": "ERISTAVA_KESKI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "face_pull",
+    "name": "Face pull",
+    "movement_class": "isolation",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "talja_seisten",
+    "primary_muscles": [
+      "takaojapää"
+    ],
+    "secondary_muscles": [
+      "hauis"
+    ],
+    "muscle_weights": {
+      "takaojapää": 1,
+      "hauis": 0.3
+    },
+    "fatigue_cost": 0.4,
+    "default_step": 2.5,
+    "family_id": "family_face_pull",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "hartiankohotus_kasipainot",
+    "name": "Hartiankohotus käsipainoilla",
+    "movement_class": "isolation",
+    "equipment": "dumbbell",
+    "device_profile_id": "dumbbell_standard",
+    "laite_id": "kasipainot",
+    "primary_muscles": [
+      "sivuolkapää"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "sivuolkapää": 1
+    },
+    "fatigue_cost": 0.3,
+    "default_step": 2.5,
+    "family_id": "family_hartiankohotus",
+    "progressioprofiili_id": "ERISTAVA_KESKI",
+    "kuorman_seuranta": "per_kasi",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "kasipainot",
+    "kuormituskerroin": 2
+  },
+  {
+    "exercise_id": "hartiankohotus_tanko",
+    "name": "Hartiankohotus tangolla",
+    "movement_class": "isolation",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "sivuolkapää"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "sivuolkapää": 1
+    },
+    "fatigue_cost": 0.3,
+    "default_step": 2.5,
+    "family_id": "family_hartiankohotus",
+    "progressioprofiili_id": "ERISTAVA_KESKI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "vipunosto_sivulle_kasipainot",
+    "name": "Vipunosto sivulle käsipainoilla",
+    "movement_class": "isolation",
+    "equipment": "dumbbell",
+    "device_profile_id": "dumbbell_standard",
+    "laite_id": "kasipainot",
+    "primary_muscles": [
+      "sivuolkapää"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "sivuolkapää": 1
+    },
+    "fatigue_cost": 0.4,
+    "default_step": 2.5,
+    "family_id": "family_vipunosto_sivulle",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "per_kasi",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "kasipainot",
+    "kuormituskerroin": 2
+  },
+  {
+    "exercise_id": "vipunostot_talja",
+    "name": "Vipunostot taljassa",
+    "movement_class": "isolation",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "ristitalja",
+    "primary_muscles": [
+      "sivuolkapää"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "sivuolkapää": 1
+    },
+    "fatigue_cost": 0.4,
+    "default_step": 2.5,
+    "family_id": "family_vipunosto_sivulle",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "pystypunnerrus_istuen_kasipainot",
+    "name": "Pystypunnerrus istuen käsipainoilla",
+    "movement_class": "compound",
+    "equipment": "dumbbell",
+    "device_profile_id": "dumbbell_standard",
+    "laite_id": "kasipainot",
+    "primary_muscles": [
+      "etuolkapaa"
+    ],
+    "secondary_muscles": [
+      "sivuolkapää",
+      "ojentaja"
+    ],
+    "muscle_weights": {
+      "etuolkapaa": 1,
+      "sivuolkapää": 0.7,
+      "ojentaja": 0.4
+    },
+    "fatigue_cost": 0.8,
+    "default_step": 2.5,
+    "family_id": "family_pystypunnerrus",
+    "progressioprofiili_id": "YLAPUNNERRUS_MONINIVEL",
+    "kuorman_seuranta": "per_kasi",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "kasipainot",
+    "kuormituskerroin": 2
+  },
+  {
+    "exercise_id": "pystypunnerrus_tanko",
+    "name": "Pystypunnerrus tangolla",
+    "movement_class": "compound",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "etuolkapaa"
+    ],
+    "secondary_muscles": [
+      "sivuolkapää",
+      "ojentaja"
+    ],
+    "muscle_weights": {
+      "etuolkapaa": 1,
+      "sivuolkapää": 0.7,
+      "ojentaja": 0.5
+    },
+    "fatigue_cost": 1,
+    "default_step": 2.5,
+    "family_id": "family_pystypunnerrus",
+    "progressioprofiili_id": "YLAPUNNERRUS_MONINIVEL",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "pystypunnerrus_seisten_kasipainot",
+    "name": "Pystypunnerrus seisten käsipainoilla",
+    "movement_class": "compound",
+    "equipment": "dumbbell",
+    "device_profile_id": "dumbbell_standard",
+    "laite_id": "kasipainot",
+    "primary_muscles": [
+      "etuolkapaa"
+    ],
+    "secondary_muscles": [
+      "sivuolkapää",
+      "ojentaja"
+    ],
+    "muscle_weights": {
+      "etuolkapaa": 1,
+      "sivuolkapää": 0.7,
+      "ojentaja": 0.4
+    },
+    "fatigue_cost": 0.9,
+    "default_step": 2.5,
+    "family_id": "family_pystypunnerrus",
+    "progressioprofiili_id": "YLAPUNNERRUS_MONINIVEL",
+    "kuorman_seuranta": "per_kasi",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "kasipainot",
+    "kuormituskerroin": 2
+  },
+  {
+    "exercise_id": "ojentajapunnerrus_talja_koysi",
+    "name": "Ojentajapunnerrus taljassa köydellä",
+    "movement_class": "isolation",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "talja_seisten",
+    "primary_muscles": [
+      "ojentaja"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "ojentaja": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_ojentajat",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "koysi",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "ojentajapunnerrus_talja_tanko",
+    "name": "Ojentajapunnerrus taljassa tangolla",
+    "movement_class": "isolation",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "talja_seisten",
+    "primary_muscles": [
+      "ojentaja"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "ojentaja": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_ojentajat",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "ojentajaojennus_paan_yli_talja",
+    "name": "Ojentajaojennus pään yli taljassa",
+    "movement_class": "isolation",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "talja_seisten",
+    "primary_muscles": [
+      "ojentaja"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "ojentaja": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_ojentajat",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "cross_body_hammer_hauiskaanto",
+    "name": "Cross body hammer -hauiskääntö",
+    "movement_class": "isolation",
+    "equipment": "dumbbell",
+    "device_profile_id": "dumbbell_standard",
+    "laite_id": "kasipainot",
+    "primary_muscles": [
+      "hauis"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "hauis": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_hauis_perus",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "per_kasi",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "hauiskaanto_kasipainot",
+    "name": "Hauiskääntö käsipainoilla",
+    "movement_class": "isolation",
+    "equipment": "dumbbell",
+    "device_profile_id": "dumbbell_standard",
+    "laite_id": "kasipainot",
+    "primary_muscles": [
+      "hauis"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "hauis": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_hauis_perus",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "per_kasi",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "kasipainot",
+    "kuormituskerroin": 2
+  },
+  {
+    "exercise_id": "hauiskaanto_koysi_talja",
+    "name": "Hauiskääntö köydellä taljassa",
+    "movement_class": "isolation",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "talja_seisten",
+    "primary_muscles": [
+      "hauis"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "hauis": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_hauis_perus",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "koysi",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "scott_hauiskaanto_laite",
+    "name": "Scott-hauiskääntö laitteessa",
+    "movement_class": "isolation",
+    "equipment": "machine",
+    "device_profile_id": "selectorized_2_5",
+    "laite_id": "scott_laite",
+    "primary_muscles": [
+      "hauis"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "hauis": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_hauis_tuki",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "laite",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "scott_hauiskaanto_kasipainot",
+    "name": "Scott-hauiskääntö käsipainoilla",
+    "movement_class": "isolation",
+    "equipment": "dumbbell",
+    "device_profile_id": "dumbbell_standard",
+    "laite_id": "kasipainot",
+    "primary_muscles": [
+      "hauis"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "hauis": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_hauis_tuki",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "per_kasi",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "kasipainot",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "scott_hauiskaanto_tanko",
+    "name": "Scott-hauiskääntö tangolla",
+    "movement_class": "isolation",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "hauis"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "hauis": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_hauis_tuki",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "hauiskaanto_ez_tanko",
+    "name": "Hauiskääntö EZ-tangolla",
+    "movement_class": "isolation",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "hauis"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "hauis": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_hauis_perus",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "hammer_hauiskaanto_talja",
+    "name": "Hauiskääntö hammer-otteella taljassa",
+    "movement_class": "isolation",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "talja_seisten",
+    "primary_muscles": [
+      "hauis"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "hauis": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_hauis_perus",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "hauiskaanto_talja_tanko",
+    "name": "Hauiskääntö taljassa tangolla",
+    "movement_class": "isolation",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "talja_seisten",
+    "primary_muscles": [
+      "hauis"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "hauis": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_hauis_perus",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "hauiskaanto_talja_selan_takaa",
+    "name": "Hauiskääntö taljassa selän takaa",
+    "movement_class": "isolation",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "talja_seisten",
+    "primary_muscles": [
+      "hauis"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "hauis": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_hauis_perus",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "hauiskaanto_tanko",
+    "name": "Hauiskääntö levytangolla",
+    "movement_class": "isolation",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "hauis"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "hauis": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_hauis_perus",
+    "progressioprofiili_id": "ERISTAVA_PIENI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "takakyykky_tanko",
+    "name": "Takakyykky tangolla",
+    "movement_class": "compound",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "etureisi"
+    ],
+    "secondary_muscles": [
+      "takareisi",
+      "pakara"
+    ],
+    "muscle_weights": {
+      "etureisi": 1,
+      "takareisi": 0.4,
+      "pakara": 0.7
+    },
+    "fatigue_cost": 1.2,
+    "default_step": 2.5,
+    "family_id": "family_takakyykky",
+    "progressioprofiili_id": "KYYKKY_LINJA",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "pysaytyskyykky_tanko",
+    "name": "Pysäytyskyykky tangolla",
+    "movement_class": "compound",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "etureisi"
+    ],
+    "secondary_muscles": [
+      "takareisi",
+      "pakara"
+    ],
+    "muscle_weights": {
+      "etureisi": 1,
+      "takareisi": 0.4,
+      "pakara": 0.7
+    },
+    "fatigue_cost": 1.2,
+    "default_step": 2.5,
+    "family_id": "family_takakyykky",
+    "progressioprofiili_id": "KYYKKY_LINJA",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "syvakyykky_tanko",
+    "name": "Syväkyykky tangolla",
+    "movement_class": "compound",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "etureisi"
+    ],
+    "secondary_muscles": [
+      "takareisi",
+      "pakara"
+    ],
+    "muscle_weights": {
+      "etureisi": 1,
+      "takareisi": 0.4,
+      "pakara": 0.8
+    },
+    "fatigue_cost": 1.2,
+    "default_step": 2.5,
+    "family_id": "family_takakyykky",
+    "progressioprofiili_id": "KYYKKY_LINJA",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "kyykky_smith",
+    "name": "Kyykky smithissä",
+    "movement_class": "compound",
+    "equipment": "machine",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "smith",
+    "primary_muscles": [
+      "etureisi"
+    ],
+    "secondary_muscles": [
+      "takareisi",
+      "pakara"
+    ],
+    "muscle_weights": {
+      "etureisi": 1,
+      "takareisi": 0.4,
+      "pakara": 0.7
+    },
+    "fatigue_cost": 1.1,
+    "default_step": 2.5,
+    "family_id": "family_takakyykky",
+    "progressioprofiili_id": "KYYKKY_LINJA",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "smith",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "jalkaprassi",
+    "name": "Jalkaprässi",
+    "movement_class": "compound",
+    "equipment": "machine",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "jalkaprassi",
+    "primary_muscles": [
+      "etureisi"
+    ],
+    "secondary_muscles": [
+      "takareisi",
+      "pakara"
+    ],
+    "muscle_weights": {
+      "etureisi": 1,
+      "takareisi": 0.4,
+      "pakara": 0.6
+    },
+    "fatigue_cost": 1,
+    "default_step": 5,
+    "family_id": "family_jalkaprassi",
+    "progressioprofiili_id": "KYYKKY_LINJA",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "pohjenousu_seisten_smith",
+    "name": "Pohjenousu seisten smithissä",
+    "movement_class": "isolation",
+    "equipment": "machine",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "smith",
+    "primary_muscles": [
+      "pohkeet"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "pohkeet": 1
+    },
+    "fatigue_cost": 0.4,
+    "default_step": 2.5,
+    "family_id": "family_pohjenousu",
+    "progressioprofiili_id": "ERISTAVA_KESKI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "smith",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "pohjenousu_istuen",
+    "name": "Pohjenousu laitteessa istuen",
+    "movement_class": "isolation",
+    "equipment": "machine",
+    "device_profile_id": "selectorized_2_5",
+    "laite_id": "pohjelaite_istuen",
+    "primary_muscles": [
+      "pohkeet"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "pohkeet": 1
+    },
+    "fatigue_cost": 0.4,
+    "default_step": 5,
+    "family_id": "family_pohjenousu",
+    "progressioprofiili_id": "ERISTAVA_KESKI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "istuen",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "reiden_ojennus_laite",
+    "name": "Reiden ojennus laitteessa",
+    "movement_class": "isolation",
+    "equipment": "machine",
+    "device_profile_id": "selectorized_2_5",
+    "laite_id": "reiden_ojennuslaite",
+    "primary_muscles": [
+      "etureisi"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "etureisi": 1
+    },
+    "fatigue_cost": 0.6,
+    "default_step": 5,
+    "family_id": "family_reiden_ojennus",
+    "progressioprofiili_id": "ERISTAVA_KESKI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "laite",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "reiden_koukistus_laite_istuen",
+    "name": "Reiden koukistus laitteessa istuen",
+    "movement_class": "isolation",
+    "equipment": "machine",
+    "device_profile_id": "selectorized_2_5",
+    "laite_id": "reiden_koukistuslaite_istuen",
+    "primary_muscles": [
+      "takareisi"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "takareisi": 1
+    },
+    "fatigue_cost": 0.6,
+    "default_step": 5,
+    "family_id": "family_reiden_koukistus",
+    "progressioprofiili_id": "ERISTAVA_KESKI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "laite",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "reiden_koukistus_laitteessa_maaten",
+    "name": "Reiden koukistus laitteessa maaten",
+    "movement_class": "isolation",
+    "equipment": "machine",
+    "device_profile_id": "selectorized_2_5",
+    "laite_id": "reiden_koukistuslaite_istuen",
+    "primary_muscles": [
+      "takareisi"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "takareisi": 1
+    },
+    "fatigue_cost": 0.6,
+    "default_step": 5,
+    "family_id": "family_reiden_koukistus",
+    "progressioprofiili_id": "ERISTAVA_KESKI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "maastaveto_trap_bar",
+    "name": "Maastaveto trap-barilla",
+    "movement_class": "compound",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "trap_bar",
+    "primary_muscles": [
+      "pakara"
+    ],
+    "secondary_muscles": [
+      "takareisi",
+      "etureisi",
+      "selkä"
+    ],
+    "muscle_weights": {
+      "pakara": 1,
+      "takareisi": 0.8,
+      "etureisi": 0.5,
+      "selkä": 0.6
+    },
+    "fatigue_cost": 1.2,
+    "default_step": 2.5,
+    "family_id": "family_maastaveto",
+    "progressioprofiili_id": "LONKKASARANA_RASKAS",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "trap_bar",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "maastaveto_tanko",
+    "name": "Maastaveto tangolla",
+    "movement_class": "compound",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "pakara"
+    ],
+    "secondary_muscles": [
+      "takareisi",
+      "etureisi",
+      "selkä"
+    ],
+    "muscle_weights": {
+      "pakara": 1,
+      "takareisi": 0.8,
+      "etureisi": 0.4,
+      "selkä": 0.7
+    },
+    "fatigue_cost": 1.2,
+    "default_step": 2.5,
+    "family_id": "family_maastaveto",
+    "progressioprofiili_id": "LONKKASARANA_RASKAS",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "penkkipunnerrus_tanko",
+    "name": "Penkkipunnerrus tangolla",
+    "movement_class": "compound",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "rinta"
+    ],
+    "secondary_muscles": [
+      "etuolkapaa",
+      "ojentaja"
+    ],
+    "muscle_weights": {
+      "rinta": 1,
+      "etuolkapaa": 0.5,
+      "ojentaja": 0.5
+    },
+    "fatigue_cost": 1,
+    "default_step": 2.5,
+    "family_id": "family_penkkipunnerrus",
+    "progressioprofiili_id": "YLAPUNNERRUS_MONINIVEL",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "penkkipunnerrus_kasipainot",
+    "name": "Penkkipunnerrus käsipainoilla",
+    "movement_class": "compound",
+    "equipment": "dumbbell",
+    "device_profile_id": "dumbbell_standard",
+    "laite_id": "kasipainot",
+    "primary_muscles": [
+      "rinta"
+    ],
+    "secondary_muscles": [
+      "etuolkapaa",
+      "ojentaja"
+    ],
+    "muscle_weights": {
+      "rinta": 1,
+      "etuolkapaa": 0.5,
+      "ojentaja": 0.4
+    },
+    "fatigue_cost": 1,
+    "default_step": 2.5,
+    "family_id": "family_penkkipunnerrus",
+    "progressioprofiili_id": "YLAPUNNERRUS_MONINIVEL",
+    "kuorman_seuranta": "per_kasi",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "kasipainot",
+    "kuormituskerroin": 2
+  },
+  {
+    "exercise_id": "penkkipunnerrus_levea_ote",
+    "name": "Penkkipunnerrus leveällä otteella",
+    "movement_class": "compound",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "rinta"
+    ],
+    "secondary_muscles": [
+      "etuolkapaa",
+      "ojentaja"
+    ],
+    "muscle_weights": {
+      "rinta": 1,
+      "etuolkapaa": 0.6,
+      "ojentaja": 0.4
+    },
+    "fatigue_cost": 1,
+    "default_step": 2.5,
+    "family_id": "family_penkkipunnerrus",
+    "progressioprofiili_id": "YLAPUNNERRUS_MONINIVEL",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "levea_ote",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "vinopenkkipunnerrus_smith",
+    "name": "Vinopenkkipunnerrus smithissä",
+    "movement_class": "compound",
+    "equipment": "machine",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "smith",
+    "primary_muscles": [
+      "rinta"
+    ],
+    "secondary_muscles": [
+      "etuolkapaa",
+      "ojentaja"
+    ],
+    "muscle_weights": {
+      "rinta": 1,
+      "etuolkapaa": 0.6,
+      "ojentaja": 0.4
+    },
+    "fatigue_cost": 1,
+    "default_step": 2.5,
+    "family_id": "family_vinopenkkipunnerrus",
+    "progressioprofiili_id": "YLAPUNNERRUS_MONINIVEL",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "smith",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "vinopenkkipunnerrus_tanko",
+    "name": "Vinopenkkipunnerrus tangolla",
+    "movement_class": "compound",
+    "equipment": "barbell",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "levytanko",
+    "primary_muscles": [
+      "rinta"
+    ],
+    "secondary_muscles": [
+      "etuolkapaa",
+      "ojentaja"
+    ],
+    "muscle_weights": {
+      "rinta": 1,
+      "etuolkapaa": 0.6,
+      "ojentaja": 0.4
+    },
+    "fatigue_cost": 1,
+    "default_step": 2.5,
+    "family_id": "family_vinopenkkipunnerrus",
+    "progressioprofiili_id": "YLAPUNNERRUS_MONINIVEL",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "tanko",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "vinopenkkipunnerrus_kasipainot",
+    "name": "Vinopenkkipunnerrus käsipainoilla",
+    "movement_class": "compound",
+    "equipment": "dumbbell",
+    "device_profile_id": "dumbbell_standard",
+    "laite_id": "kasipainot",
+    "primary_muscles": [
+      "rinta"
+    ],
+    "secondary_muscles": [
+      "etuolkapaa",
+      "ojentaja"
+    ],
+    "muscle_weights": {
+      "rinta": 1,
+      "etuolkapaa": 0.6,
+      "ojentaja": 0.4
+    },
+    "fatigue_cost": 1,
+    "default_step": 2.5,
+    "family_id": "family_vinopenkkipunnerrus",
+    "progressioprofiili_id": "YLAPUNNERRUS_MONINIVEL",
+    "kuorman_seuranta": "per_kasi",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "kasipainot",
+    "kuormituskerroin": 2
+  },
+  {
+    "exercise_id": "punnerrus_ristitaljassa",
+    "name": "Punnerrus ristitaljassa",
+    "movement_class": "isolation",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "ristitalja",
+    "primary_muscles": [
+      "rinta"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "rinta": 1
+    },
+    "fatigue_cost": 0.6,
+    "default_step": 2.5,
+    "family_id": "family_rinta_iso",
+    "progressioprofiili_id": "ERISTAVA_KESKI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "pec_deck",
+    "name": "Pec deck",
+    "movement_class": "isolation",
+    "equipment": "machine",
+    "device_profile_id": "selectorized_2_5",
+    "laite_id": "pec_deck",
+    "primary_muscles": [
+      "rinta"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "rinta": 1
+    },
+    "fatigue_cost": 0.6,
+    "default_step": 5,
+    "family_id": "family_rinta_iso",
+    "progressioprofiili_id": "ERISTAVA_KESKI",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "dippi",
+    "name": "Dippi",
+    "movement_class": "compound",
+    "equipment": "bodyweight",
+    "device_profile_id": "bodyweight",
+    "laite_id": "dippiteline",
+    "primary_muscles": [
+      "ojentaja"
+    ],
+    "secondary_muscles": [
+      "rinta",
+      "etuolkapaa"
+    ],
+    "muscle_weights": {
+      "ojentaja": 1,
+      "rinta": 0.6,
+      "etuolkapaa": 0.4
+    },
+    "fatigue_cost": 0.9,
+    "default_step": 2.5,
+    "family_id": "family_dippi",
+    "progressioprofiili_id": "KEHONPAINO",
+    "kuorman_seuranta": "kehonpaino",
+    "siirtyma_liike_id": "dippi_lisapaino",
+    "aloitus_lisapaino_kg": 5,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "dippi_lisapaino",
+    "name": "Dippi lisäpainolla",
+    "movement_class": "compound",
+    "equipment": "bodyweight",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "dippi_lisapaino",
+    "primary_muscles": [
+      "ojentaja"
+    ],
+    "secondary_muscles": [
+      "rinta",
+      "etuolkapaa"
+    ],
+    "muscle_weights": {
+      "ojentaja": 1,
+      "rinta": 0.6,
+      "etuolkapaa": 0.4
+    },
+    "fatigue_cost": 1,
+    "default_step": 2.5,
+    "family_id": "family_dippi",
+    "progressioprofiili_id": "KEHONPAINO_LISAPAINO",
+    "kuorman_seuranta": "lisapaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "lisapaino",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "selanojennus_lisapaino",
+    "name": "Selänojennus lisäpainolla",
+    "movement_class": "isolation",
+    "equipment": "bodyweight",
+    "device_profile_id": "plate_loaded_standard",
+    "laite_id": "selanojennus_lisapaino",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "takareisi",
+      "pakara"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "takareisi": 0.4,
+      "pakara": 0.4
+    },
+    "fatigue_cost": 0.6,
+    "default_step": 2.5,
+    "family_id": "family_selanojennus",
+    "progressioprofiili_id": "KEHONPAINO_LISAPAINO",
+    "kuorman_seuranta": "lisapaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "lisapaino",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "selanojennus_laite",
+    "name": "Selänojennus laitteessa",
+    "movement_class": "isolation",
+    "equipment": "machine",
+    "device_profile_id": "selectorized_2_5",
+    "laite_id": "selanojennuslaite",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "selkä": 1
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 5,
+    "family_id": "family_selanojennus",
+    "progressioprofiili_id": "LONKKASARANA_RASKAS",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "laite",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "selanojennus",
+    "name": "Selänojennus",
+    "movement_class": "isolation",
+    "equipment": "bodyweight",
+    "device_profile_id": "bodyweight",
+    "laite_id": "hyperextension_penkki",
+    "primary_muscles": [
+      "selkä"
+    ],
+    "secondary_muscles": [
+      "takareisi",
+      "pakara"
+    ],
+    "muscle_weights": {
+      "selkä": 1,
+      "takareisi": 0.4,
+      "pakara": 0.4
+    },
+    "fatigue_cost": 0.5,
+    "default_step": 2.5,
+    "family_id": "family_selanojennus",
+    "progressioprofiili_id": "KEHONPAINO",
+    "kuorman_seuranta": "kehonpaino",
+    "siirtyma_liike_id": "selanojennus_lisapaino",
+    "aloitus_lisapaino_kg": 5,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "vatsarutistus_laite",
+    "name": "Vatsarutistus laitteessa",
+    "movement_class": "isolation",
+    "equipment": "machine",
+    "device_profile_id": "selectorized_2_5",
+    "laite_id": "vatsarutistuslaite",
+    "primary_muscles": [
+      "vatsat"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "vatsat": 1
+    },
+    "fatigue_cost": 0.3,
+    "default_step": 5,
+    "family_id": "family_vatsarutistus",
+    "progressioprofiili_id": "KESKIVARTALO",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "laite",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "vatsarutistus_talja",
+    "name": "Vatsarutistus taljassa",
+    "movement_class": "isolation",
+    "equipment": "cable",
+    "device_profile_id": "selectorized_1_25",
+    "laite_id": "talja_seisten",
+    "primary_muscles": [
+      "vatsat"
+    ],
+    "secondary_muscles": [],
+    "muscle_weights": {
+      "vatsat": 1
+    },
+    "fatigue_cost": 0.3,
+    "default_step": 2.5,
+    "family_id": "family_vatsarutistus",
+    "progressioprofiili_id": "KESKIVARTALO",
+    "kuorman_seuranta": "kokonaispaino",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "perus",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "juoksumatto",
+    "name": "Juoksumatto",
+    "movement_class": "cardio",
+    "equipment": "cardio_machine",
+    "device_profile_id": "bodyweight",
+    "laite_id": "juoksumatto",
+    "primary_muscles": [
+      "jalat",
+      "sydän ja keuhkot"
+    ],
+    "secondary_muscles": [
+      "pakarat",
+      "core"
+    ],
+    "muscle_weights": {
+      "jalat": 1,
+      "sydän ja keuhkot": 1
+    },
+    "fatigue_cost": 0.8,
+    "default_step": 0.5,
+    "family_id": "family_cardio",
+    "progressioprofiili_id": "CARDIO",
+    "kuorman_seuranta": "nopeus",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "juoksumatto",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "juoksu_ulkona",
+    "name": "Juoksu",
+    "movement_class": "cardio",
+    "equipment": "bodyweight",
+    "device_profile_id": "bodyweight",
+    "laite_id": "ulkona",
+    "primary_muscles": [
+      "jalat",
+      "sydän ja keuhkot"
+    ],
+    "secondary_muscles": [
+      "pakarat",
+      "core"
+    ],
+    "muscle_weights": {
+      "jalat": 1,
+      "sydän ja keuhkot": 1
+    },
+    "fatigue_cost": 0.9,
+    "default_step": 0.5,
+    "family_id": "family_cardio",
+    "progressioprofiili_id": "CARDIO",
+    "kuorman_seuranta": "nopeus",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "ulkona",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "kävely_juoksumatto",
+    "name": "Kävely (juoksumatto)",
+    "movement_class": "cardio",
+    "equipment": "cardio_machine",
+    "device_profile_id": "bodyweight",
+    "laite_id": "juoksumatto",
+    "primary_muscles": [
+      "jalat",
+      "sydän ja keuhkot"
+    ],
+    "secondary_muscles": [
+      "pakarat"
+    ],
+    "muscle_weights": {
+      "jalat": 0.8,
+      "sydän ja keuhkot": 0.6
+    },
+    "fatigue_cost": 0.4,
+    "default_step": 0.5,
+    "family_id": "family_cardio",
+    "progressioprofiili_id": "CARDIO",
+    "kuorman_seuranta": "nopeus",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "kävely",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "pyöräily_sisällä",
+    "name": "Pyöräily (sisäpyörä)",
+    "movement_class": "cardio",
+    "equipment": "cardio_machine",
+    "device_profile_id": "bodyweight",
+    "laite_id": "sisapyora",
+    "primary_muscles": [
+      "jalat",
+      "sydän ja keuhkot"
+    ],
+    "secondary_muscles": [
+      "pakarat",
+      "pohkeet"
+    ],
+    "muscle_weights": {
+      "jalat": 1,
+      "sydän ja keuhkot": 0.9
+    },
+    "fatigue_cost": 0.7,
+    "default_step": 1,
+    "family_id": "family_cardio",
+    "progressioprofiili_id": "CARDIO",
+    "kuorman_seuranta": "teho",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "sisapyora",
+    "kuormituskerroin": 1
+  },
+  {
+    "exercise_id": "soutuergometri",
+    "name": "Soutuergometri",
+    "movement_class": "cardio",
+    "equipment": "cardio_machine",
+    "device_profile_id": "bodyweight",
+    "laite_id": "soutuergometri",
+    "primary_muscles": [
+      "selkä",
+      "jalat",
+      "sydän ja keuhkot"
+    ],
+    "secondary_muscles": [
+      "hauis",
+      "core"
+    ],
+    "muscle_weights": {
+      "selkä": 0.8,
+      "jalat": 0.8,
+      "sydän ja keuhkot": 1
+    },
+    "fatigue_cost": 1,
+    "default_step": 1,
+    "family_id": "family_cardio",
+    "progressioprofiili_id": "CARDIO",
+    "kuorman_seuranta": "teho",
+    "siirtyma_liike_id": null,
+    "aloitus_lisapaino_kg": null,
+    "variantti_tyyppi": "soutulaite",
+    "kuormituskerroin": 1
+  }
+]

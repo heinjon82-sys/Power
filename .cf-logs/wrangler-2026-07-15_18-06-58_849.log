@@ -1,0 +1,394 @@
+
+--- 2026-07-15T18:06:58.930Z debug
+🪵  Writing logs to "/Users/jesse/Documents/Treeniseuranta sovellus/punttis-pwa/.cf-logs/wrangler-2026-07-15_18-06-58_849.log"
+---
+
+--- 2026-07-15T18:06:58.930Z debug
+.env file not found at "/Users/jesse/Documents/Treeniseuranta sovellus/punttis-pwa/.env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-07-15T18:06:58.930Z debug
+.env file not found at "/Users/jesse/Documents/Treeniseuranta sovellus/punttis-pwa/.env.local". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-07-15T18:06:58.934Z log
+
+ ⛅️ wrangler 4.111.0
+────────────────────
+---
+
+--- 2026-07-15T18:06:58.939Z log
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+---
+
+--- 2026-07-15T18:06:58.943Z debug
+Running autoconfig detection in /Users/jesse/Documents/Treeniseuranta sovellus/punttis-pwa...
+---
+
+--- 2026-07-15T18:06:58.943Z debug
+Metrics dispatcher: Posting data {"deviceId":"4523d709-ade0-4407-947d-366b9a157498","event":"wrangler command started","timestamp":1784138818943,"properties":{"amplitude_session_id":1784138818938,"amplitude_event_id":0,"wranglerVersion":"4.111.0","wranglerMajorVersion":4,"wranglerMinorVersion":111,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 25.5.0: Tue Jun  9 22:28:17 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8142","nodeVersion":24,"packageManager":"npm","isFirstUsage":false,"configFileType":"jsonc","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":true,"agent":"codex","argsUsed":[],"argsCombination":"","sanitizedCommand":"deploy","sanitizedArgs":{},"currentAgentSkillsInstalled":false}}
+---
+
+--- 2026-07-15T18:06:58.946Z debug
+Metrics dispatcher: Posting data {"deviceId":"4523d709-ade0-4407-947d-366b9a157498","event":"autoconfig_process_started","timestamp":1784138818946,"properties":{"amplitude_session_id":1784138818943,"amplitude_event_id":0,"wranglerVersion":"4.111.0","wranglerMajorVersion":4,"wranglerMinorVersion":111,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 25.5.0: Tue Jun  9 22:28:17 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8142","nodeVersion":24,"packageManager":"npm","isFirstUsage":false,"configFileType":"none","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":"codex","category":"Workers","os":"darwin:arm64","autoConfigId":"51126e9e-fa5f-46c9-a6cc-1563911c0b6e","command":"wrangler deploy","dryRun":false,"currentAgentSkillsInstalled":false}}
+---
+
+--- 2026-07-15T18:06:58.946Z debug
+Metrics dispatcher: Posting data {"deviceId":"4523d709-ade0-4407-947d-366b9a157498","event":"autoconfig_detection_started","timestamp":1784138818946,"properties":{"amplitude_session_id":1784138818943,"amplitude_event_id":0,"wranglerVersion":"4.111.0","wranglerMajorVersion":4,"wranglerMinorVersion":111,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 25.5.0: Tue Jun  9 22:28:17 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8142","nodeVersion":24,"packageManager":"npm","isFirstUsage":false,"configFileType":"none","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":"codex","category":"Workers","os":"darwin:arm64","autoConfigId":"51126e9e-fa5f-46c9-a6cc-1563911c0b6e","command":"wrangler deploy","currentAgentSkillsInstalled":false}}
+---
+
+--- 2026-07-15T18:06:58.947Z debug
+Metrics dispatcher: Posting data {"deviceId":"4523d709-ade0-4407-947d-366b9a157498","event":"autoconfig_detection_completed","timestamp":1784138818947,"properties":{"amplitude_session_id":1784138818943,"amplitude_event_id":0,"wranglerVersion":"4.111.0","wranglerMajorVersion":4,"wranglerMinorVersion":111,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 25.5.0: Tue Jun  9 22:28:17 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8142","nodeVersion":24,"packageManager":"npm","isFirstUsage":false,"configFileType":"none","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":"codex","category":"Workers","os":"darwin:arm64","autoConfigId":"51126e9e-fa5f-46c9-a6cc-1563911c0b6e","configured":true,"success":true,"currentAgentSkillsInstalled":false}}
+---
+
+--- 2026-07-15T18:06:58.952Z debug
+Metrics dispatcher: Posting data {"deviceId":"4523d709-ade0-4407-947d-366b9a157498","event":"autoconfig_process_ended","timestamp":1784138818952,"properties":{"amplitude_session_id":1784138818943,"amplitude_event_id":0,"wranglerVersion":"4.111.0","wranglerMajorVersion":4,"wranglerMinorVersion":111,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 25.5.0: Tue Jun  9 22:28:17 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8142","nodeVersion":24,"packageManager":"npm","isFirstUsage":false,"configFileType":"none","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":"codex","category":"Workers","os":"darwin:arm64","autoConfigId":"51126e9e-fa5f-46c9-a6cc-1563911c0b6e","command":"wrangler deploy","dryRun":false,"success":true,"currentAgentSkillsInstalled":false}}
+---
+
+--- 2026-07-15T18:06:58.991Z debug
+Starting verifyWorkerMatchesCITag() with tag: undefined, name: punttis
+---
+
+--- 2026-07-15T18:06:58.991Z debug
+No WRANGLER_CI_MATCH_TAG variable provided, aborting verifyWorkerMatchesCITag()
+---
+
+--- 2026-07-15T18:06:58.991Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/workers/services/punttis
+---
+
+--- 2026-07-15T18:06:58.991Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:06:58.991Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:06:58.991Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:06:58.991Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:07:01.745Z debug
+-- START CF API RESPONSE: Not Found 404
+---
+
+--- 2026-07-15T18:07:01.745Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:01.745Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:01.745Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:07:01.747Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/workers/scripts/punttis/secrets
+---
+
+--- 2026-07-15T18:07:01.747Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:01.747Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:01.747Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:01.748Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:07:03.828Z debug
+-- START CF API RESPONSE: Not Found 404
+---
+
+--- 2026-07-15T18:07:03.828Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:03.828Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:03.828Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:07:03.830Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/workers/scripts/punttis/deployments
+---
+
+--- 2026-07-15T18:07:03.830Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:03.830Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:03.830Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:03.830Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:07:05.409Z debug
+-- START CF API RESPONSE: Forbidden 403
+---
+
+--- 2026-07-15T18:07:05.409Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:05.409Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:05.409Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:07:05.410Z log
+
+---
+
+--- 2026-07-15T18:07:05.442Z error
+✘ [ERROR] A request to the Cloudflare API (/accounts/9d9294c62279b0f8e67d2b3da0f9abc7/workers/scripts/punttis/deployments) failed.
+
+  Authentication error [code: 10000]
+
+
+---
+
+--- 2026-07-15T18:07:05.443Z log
+Getting User settings...
+---
+
+--- 2026-07-15T18:07:05.444Z debug
+Metrics dispatcher: Posting data {"deviceId":"4523d709-ade0-4407-947d-366b9a157498","event":"wrangler command errored","timestamp":1784138825444,"properties":{"amplitude_session_id":1784138818938,"amplitude_event_id":1,"wranglerVersion":"4.111.0","wranglerMajorVersion":4,"wranglerMinorVersion":111,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 25.5.0: Tue Jun  9 22:28:17 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8142","nodeVersion":24,"packageManager":"npm","isFirstUsage":false,"configFileType":"jsonc","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":true,"agent":"codex","argsUsed":[],"argsCombination":"","sanitizedCommand":"deploy","sanitizedArgs":{},"durationMs":6478,"errorType":"AuthenticationError","currentAgentSkillsInstalled":false}}
+---
+
+--- 2026-07-15T18:07:05.445Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/user
+---
+
+--- 2026-07-15T18:07:05.445Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:05.445Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:05.445Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:05.445Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:07:06.128Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-07-15T18:07:06.129Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:06.129Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:06.129Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:07:06.130Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts
+---
+
+--- 2026-07-15T18:07:06.130Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:06.130Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:06.130Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:06.130Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:07:06.130Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/memberships
+---
+
+--- 2026-07-15T18:07:06.130Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:06.130Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:06.130Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:06.130Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:07:07.109Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-07-15T18:07:07.109Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:07.109Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:07.109Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:07:08.271Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-07-15T18:07:08.271Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:08.271Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:08.271Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-07-15T18:07:08.272Z log
+👋 You are logged in with an OAuth Token, associated with the email jes.heinonen@gmail.com.
+---
+
+--- 2026-07-15T18:07:08.272Z log
+🔐 Credentials are stored in: /Users/jesse/Documents/Treeniseuranta sovellus/punttis-pwa/.cf-config/.wrangler/config/default.toml
+---
+
+--- 2026-07-15T18:07:08.274Z log
+┌──────────────────────────────────┬──────────────────────────────────┐
+│ Account Name                     │ Account ID                       │
+├──────────────────────────────────┼──────────────────────────────────┤
+│ Jes.heinonen@gmail.com's Account │ 9d9294c62279b0f8e67d2b3da0f9abc7 │
+└──────────────────────────────────┴──────────────────────────────────┘
+---
+
+--- 2026-07-15T18:07:08.274Z log
+🔓 Token Permissions:
+---
+
+--- 2026-07-15T18:07:08.274Z log
+Scope (Access)
+---
+
+--- 2026-07-15T18:07:08.274Z log
+- account (read)
+---
+
+--- 2026-07-15T18:07:08.274Z log
+- user (read)
+---
+
+--- 2026-07-15T18:07:08.274Z log
+- workers (write)
+---
+
+--- 2026-07-15T18:07:08.274Z log
+- d1 (write)
+---
+
+--- 2026-07-15T18:07:08.274Z log
+- offline_access 
+---
+
+--- 2026-07-15T18:07:08.274Z log
+
+---
+
+--- 2026-07-15T18:07:08.275Z log
+▲ [WARNING] Wrangler is missing some expected Oauth scopes. To fix this, run `wrangler login` to refresh your token. The missing scopes are:
+
+  - workers_kv:write
+  - workers_routes:write
+  - workers_scripts:write
+  - workers_tail:read
+  - pages:write
+  - zone:read
+  - ssl_certs:write
+  - ai:write
+  - ai-search:write
+  - ai-search:run
+  - websearch.run
+  - agent-memory:write
+  - queues:write
+  - pipelines:write
+  - secrets_store:write
+  - artifacts:write
+  - flagship:write
+  - containers:write
+  - cloudchamber:write
+  - connectivity:admin
+  - email_routing:write
+  - email_sending:write
+  - browser:write
+  - challenge-widgets.write
+
+
+---
+
+--- 2026-07-15T18:07:08.276Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/memberships
+---
+
+--- 2026-07-15T18:07:08.276Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:08.276Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:08.276Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-07-15T18:07:08.276Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-07-15T18:07:10.222Z debug
+-- START CF API RESPONSE: OK 200
+---

@@ -1,0 +1,278 @@
+{
+  "alataljasoutu_tanko": {
+    "thumb": "/exercises/alataljasoutu_tanko.webp",
+    "full": "/media/alataljasoutu_tanko.webp"
+  },
+  "alataljasoutu_v_kahva": {
+    "thumb": "/exercises/alataljasoutu_v_kahva.webp",
+    "full": "/media/alataljasoutu_v_kahva.webp"
+  },
+  "alataljasoutu_levea_tanko": {
+    "thumb": "/exercises/alataljasoutu_levea_tanko.webp",
+    "full": "/media/alataljasoutu_levea_tanko.webp"
+  },
+  "seated_row_soutulaitteeessa": {
+    "thumb": "/exercises/seated_row_soutulaitteeessa.webp",
+    "full": "/media/seated_row_soutulaitteeessa.webp"
+  },
+  "kulmasoutu_kasipainot": {
+    "thumb": "/exercises/kulmasoutu_kasipainot.webp",
+    "full": "/media/kulmasoutu_kasipainot.webp"
+  },
+  "kulmasoutu_tanko": {
+    "thumb": "/exercises/kulmasoutu_tanko.webp",
+    "full": "/media/kulmasoutu_tanko.webp"
+  },
+  "t_kulmasoutu": {
+    "thumb": "/exercises/t_kulmasoutu.webp",
+    "full": "/media/t_kulmasoutu.webp"
+  },
+  "ylatalja_levea_ote": {
+    "thumb": "/exercises/ylatalja_levea_ote.webp",
+    "full": "/media/ylatalja_levea_ote.webp"
+  },
+  "ylatalja_kapea_ote": {
+    "thumb": "/exercises/ylatalja_kapea_ote.webp",
+    "full": "/media/ylatalja_kapea_ote.webp"
+  },
+  "leuanveto": {
+    "thumb": "/exercises/leuanveto.webp",
+    "full": "/media/leuanveto.webp"
+  },
+  "leuanveto_lisapaino": {
+    "thumb": "/exercises/leuanveto_lisapaino.webp",
+    "full": "/media/leuanveto_lisapaino.webp"
+  },
+  "pullover_tangolla": {
+    "thumb": "/exercises/pullover_tangolla.webp",
+    "full": "/media/pullover_tangolla.webp"
+  },
+  "pullover_koysi": {
+    "thumb": "/exercises/pullover_koysi.webp",
+    "full": "/media/pullover_koysi.webp"
+  },
+  "pystysoutu_talja": {
+    "thumb": "/exercises/pystysoutu_talja.webp",
+    "full": "/media/pystysoutu_talja.webp"
+  },
+  "pystysoutu_tanko": {
+    "thumb": "/exercises/pystysoutu_tanko.webp",
+    "full": "/media/pystysoutu_tanko.webp"
+  },
+  "face_pull": {
+    "thumb": "/exercises/face_pull.webp",
+    "full": "/media/face_pull.webp"
+  },
+  "hartiankohotus_kasipainot": {
+    "thumb": "/exercises/hartiankohotus_kasipainot.webp",
+    "full": "/media/hartiankohotus_kasipainot.webp"
+  },
+  "hartiankohotus_tanko": {
+    "thumb": "/exercises/hartiankohotus_tanko.webp",
+    "full": "/media/hartiankohotus_tanko.webp"
+  },
+  "vipunosto_sivulle_kasipainot": {
+    "thumb": "/exercises/vipunosto_sivulle_kasipainot.webp",
+    "full": "/media/vipunosto_sivulle_kasipainot.webp"
+  },
+  "vipunostot_talja": {
+    "thumb": "/exercises/vipunostot_talja.webp",
+    "full": "/media/vipunostot_talja.webp"
+  },
+  "pystypunnerrus_istuen_kasipainot": {
+    "thumb": "/exercises/pystypunnerrus_istuen_kasipainot.webp",
+    "full": "/media/pystypunnerrus_istuen_kasipainot.webp"
+  },
+  "pystypunnerrus_tanko": {
+    "thumb": "/exercises/pystypunnerrus_tanko.webp",
+    "full": "/media/pystypunnerrus_tanko.webp"
+  },
+  "pystypunnerrus_seisten_kasipainot": {
+    "thumb": "/exercises/pystypunnerrus_seisten_kasipainot.webp",
+    "full": "/media/pystypunnerrus_seisten_kasipainot.webp"
+  },
+  "ojentajapunnerrus_talja_koysi": {
+    "thumb": "/exercises/ojentajapunnerrus_talja_koysi.webp",
+    "full": "/media/ojentajapunnerrus_talja_koysi.webp"
+  },
+  "ojentajapunnerrus_talja_tanko": {
+    "thumb": "/exercises/ojentajapunnerrus_talja_tanko.webp",
+    "full": "/media/ojentajapunnerrus_talja_tanko.webp"
+  },
+  "ojentajaojennus_paan_yli_talja": {
+    "thumb": "/exercises/ojentajaojennus_paan_yli_talja.webp",
+    "full": "/media/ojentajaojennus_paan_yli_talja.webp"
+  },
+  "cross_body_hammer_hauiskaanto": {
+    "thumb": "/exercises/cross_body_hammer_hauiskaanto.webp",
+    "full": "/media/cross_body_hammer_hauiskaanto.webp"
+  },
+  "hauiskaanto_kasipainot": {
+    "thumb": "/exercises/hauiskaanto_kasipainot.webp",
+    "full": "/media/hauiskaanto_kasipainot.webp"
+  },
+  "hauiskaanto_koysi_talja": {
+    "thumb": "/exercises/hauiskaanto_koysi_talja.webp",
+    "full": "/media/hauiskaanto_koysi_talja.webp"
+  },
+  "scott_hauiskaanto_laite": {
+    "thumb": "/exercises/scott_hauiskaanto_laite.webp",
+    "full": "/media/scott_hauiskaanto_laite.webp"
+  },
+  "scott_hauiskaanto_kasipainot": {
+    "thumb": "/exercises/scott_hauiskaanto_kasipainot.webp",
+    "full": "/media/scott_hauiskaanto_kasipainot.webp"
+  },
+  "scott_hauiskaanto_tanko": {
+    "thumb": "/exercises/scott_hauiskaanto_tanko.webp",
+    "full": "/media/scott_hauiskaanto_tanko.webp"
+  },
+  "hauiskaanto_ez_tanko": {
+    "thumb": "/exercises/hauiskaanto_ez_tanko.webp",
+    "full": "/media/hauiskaanto_ez_tanko.webp"
+  },
+  "hammer_hauiskaanto_talja": {
+    "thumb": "/exercises/hammer_hauiskaanto_talja.webp",
+    "full": "/media/hammer_hauiskaanto_talja.webp"
+  },
+  "hauiskaanto_talja_tanko": {
+    "thumb": "/exercises/hauiskaanto_talja_tanko.webp",
+    "full": "/media/hauiskaanto_talja_tanko.webp"
+  },
+  "hauiskaanto_talja_selan_takaa": {
+    "thumb": "/exercises/hauiskaanto_talja_selan_takaa.webp",
+    "full": "/media/hauiskaanto_talja_selan_takaa.webp"
+  },
+  "hauiskaanto_tanko": {
+    "thumb": "/exercises/hauiskaanto_tanko.webp",
+    "full": "/media/hauiskaanto_tanko.webp"
+  },
+  "takakyykky_tanko": {
+    "thumb": "/exercises/takakyykky_tanko.webp",
+    "full": "/media/takakyykky_tanko.webp"
+  },
+  "pysaytyskyykky_tanko": {
+    "thumb": "/exercises/pysaytyskyykky_tanko.webp",
+    "full": "/media/pysaytyskyykky_tanko.webp"
+  },
+  "syvakyykky_tanko": {
+    "thumb": "/exercises/syvakyykky_tanko.webp",
+    "full": "/media/syvakyykky_tanko.webp"
+  },
+  "kyykky_smith": {
+    "thumb": "/exercises/kyykky_smith.webp",
+    "full": "/media/kyykky_smith.webp"
+  },
+  "jalkaprassi": {
+    "thumb": "/exercises/jalkaprassi.webp",
+    "full": "/media/jalkaprassi.webp"
+  },
+  "pohjenousu_seisten_smith": {
+    "thumb": "/exercises/pohjenousu_seisten_smith.webp",
+    "full": "/media/pohjenousu_seisten_smith.webp"
+  },
+  "pohjenousu_istuen": {
+    "thumb": "/exercises/pohjenousu_istuen.webp",
+    "full": "/media/pohjenousu_istuen.webp"
+  },
+  "reiden_ojennus_laite": {
+    "thumb": "/exercises/reiden_ojennus_laite.webp",
+    "full": "/media/reiden_ojennus_laite.webp"
+  },
+  "reiden_koukistus_laite_istuen": {
+    "thumb": "/exercises/reiden_koukistus_laite_istuen.webp",
+    "full": "/media/reiden_koukistus_laite_istuen.webp"
+  },
+  "reiden_koukistus_laitteessa_maaten": {
+    "thumb": "/exercises/reiden_koukistus_laitteessa_maaten.webp",
+    "full": "/media/reiden_koukistus_laitteessa_maaten.webp"
+  },
+  "maastaveto_trap_bar": {
+    "thumb": "/exercises/maastaveto_trap_bar.webp",
+    "full": "/media/maastaveto_trap_bar.webp"
+  },
+  "maastaveto_tanko": {
+    "thumb": "/exercises/maastaveto_tanko.webp",
+    "full": "/media/maastaveto_tanko.webp"
+  },
+  "penkkipunnerrus_tanko": {
+    "thumb": "/exercises/penkkipunnerrus_tanko.webp",
+    "full": "/media/penkkipunnerrus_tanko.webp"
+  },
+  "penkkipunnerrus_kasipainot": {
+    "thumb": "/exercises/penkkipunnerrus_kasipainot.webp",
+    "full": "/media/penkkipunnerrus_kasipainot.webp"
+  },
+  "penkkipunnerrus_levea_ote": {
+    "thumb": "/exercises/penkkipunnerrus_levea_ote.webp",
+    "full": "/media/penkkipunnerrus_levea_ote.webp"
+  },
+  "vinopenkkipunnerrus_smith": {
+    "thumb": "/exercises/vinopenkkipunnerrus_smith.webp",
+    "full": "/media/vinopenkkipunnerrus_smith.webp"
+  },
+  "vinopenkkipunnerrus_tanko": {
+    "thumb": "/exercises/vinopenkkipunnerrus_tanko.webp",
+    "full": "/media/vinopenkkipunnerrus_tanko.webp"
+  },
+  "vinopenkkipunnerrus_kasipainot": {
+    "thumb": "/exercises/vinopenkkipunnerrus_kasipainot.webp",
+    "full": "/media/vinopenkkipunnerrus_kasipainot.webp"
+  },
+  "punnerrus_ristitaljassa": {
+    "thumb": "/exercises/punnerrus_ristitaljassa.webp",
+    "full": "/media/punnerrus_ristitaljassa.webp"
+  },
+  "pec_deck": {
+    "thumb": "/exercises/pec_deck.webp",
+    "full": "/media/pec_deck.webp"
+  },
+  "dippi": {
+    "thumb": "/exercises/dippi.webp",
+    "full": "/media/dippi.webp"
+  },
+  "dippi_lisapaino": {
+    "thumb": "/exercises/dippi_lisapaino.webp",
+    "full": "/media/dippi_lisapaino.webp"
+  },
+  "selanojennus_lisapaino": {
+    "thumb": "/exercises/selanojennus_lisapaino.webp",
+    "full": "/media/selanojennus_lisapaino.webp"
+  },
+  "selanojennus_laite": {
+    "thumb": "/exercises/selanojennus_laite.webp",
+    "full": "/media/selanojennus_laite.webp"
+  },
+  "selanojennus": {
+    "thumb": "/exercises/selanojennus.webp",
+    "full": "/media/selanojennus.webp"
+  },
+  "vatsarutistus_laite": {
+    "thumb": "/exercises/vatsarutistus_laite.webp",
+    "full": "/media/vatsarutistus_laite.webp"
+  },
+  "vatsarutistus_talja": {
+    "thumb": "/exercises/vatsarutistus_talja.webp",
+    "full": "/media/vatsarutistus_talja.webp"
+  },
+  "juoksumatto": {
+    "thumb": "/exercises/juoksumatto.webp",
+    "full": "/media/juoksumatto.webp"
+  },
+  "juoksu_ulkona": {
+    "thumb": "/exercises/juoksu_ulkona.webp",
+    "full": "/media/juoksu_ulkona.webp"
+  },
+  "kävely_juoksumatto": {
+    "thumb": "/exercises/kävely_juoksumatto.webp",
+    "full": "/media/kävely_juoksumatto.webp"
+  },
+  "pyöräily_sisällä": {
+    "thumb": "/exercises/pyöräily_sisällä.webp",
+    "full": "/media/pyöräily_sisällä.webp"
+  },
+  "soutuergometri": {
+    "thumb": "/exercises/soutuergometri.webp",
+    "full": "/media/soutuergometri.webp"
+  }
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "family_id": "family_kulmasoutu",
+    "family_nimi": "Kulmasoutu",
+    "oletus_liikeluokka": "moninivelliike_ylaranka",
+    "oletus_liikesuunta": "vaakaveto",
+    "oletus_vasyvyysluokka": "keskitaso",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "YLAVETO_MONINIVEL",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_ylatalja",
+    "family_nimi": "Ylätalja",
+    "oletus_liikeluokka": "moninivelliike_ylaranka",
+    "oletus_liikesuunta": "pystyveto",
+    "oletus_vasyvyysluokka": "keskitaso",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "YLAVETO_MONINIVEL",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_leuanveto",
+    "family_nimi": "Leuanveto",
+    "oletus_liikeluokka": "kehonpaino",
+    "oletus_liikesuunta": "pystyveto",
+    "oletus_vasyvyysluokka": "korkea",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "KEHONPAINO",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_pullover",
+    "family_nimi": "Pullover",
+    "oletus_liikeluokka": "eristava",
+    "oletus_liikesuunta": "pullover",
+    "oletus_vasyvyysluokka": "matala",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "ERISTAVA_KESKI",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_pystysoutu",
+    "family_nimi": "Pystysoutu",
+    "oletus_liikeluokka": "moninivelliike_ylaranka",
+    "oletus_liikesuunta": "pystyveto_olkapaat",
+    "oletus_vasyvyysluokka": "keskitaso",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "ERISTAVA_KESKI",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_face_pull",
+    "family_nimi": "Face pull",
+    "oletus_liikeluokka": "eristava",
+    "oletus_liikesuunta": "face_pull",
+    "oletus_vasyvyysluokka": "matala",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "ERISTAVA_PIENI",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_hartiankohotus",
+    "family_nimi": "Hartiankohotus",
+    "oletus_liikeluokka": "eristava",
+    "oletus_liikesuunta": "hartiankohotus",
+    "oletus_vasyvyysluokka": "matala",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "ERISTAVA_KESKI",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_ojentajat",
+    "family_nimi": "Ojentajat",
+    "oletus_liikeluokka": "eristava",
+    "oletus_liikesuunta": "ojentajaojennus",
+    "oletus_vasyvyysluokka": "matala",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "ERISTAVA_PIENI",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_vipunosto_sivulle",
+    "family_nimi": "Vipunosto sivulle",
+    "oletus_liikeluokka": "eristava",
+    "oletus_liikesuunta": "sivuvipunosto",
+    "oletus_vasyvyysluokka": "matala",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "ERISTAVA_PIENI",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_pystypunnerrus",
+    "family_nimi": "Pystypunnerrus",
+    "oletus_liikeluokka": "moninivelliike_ylaranka",
+    "oletus_liikesuunta": "pystypunnerrus",
+    "oletus_vasyvyysluokka": "keskitaso",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "YLAPUNNERRUS_MONINIVEL",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_hauis_perus",
+    "family_nimi": "Hauis perus",
+    "oletus_liikeluokka": "eristava",
+    "oletus_liikesuunta": "hauiskaanto",
+    "oletus_vasyvyysluokka": "matala",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "ERISTAVA_PIENI",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_hauis_tuki",
+    "family_nimi": "Hauis tuettu",
+    "oletus_liikeluokka": "eristava",
+    "oletus_liikesuunta": "hauiskaanto",
+    "oletus_vasyvyysluokka": "matala",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "ERISTAVA_PIENI",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_takakyykky",
+    "family_nimi": "Takakyykky",
+    "oletus_liikeluokka": "moninivelliike_alaranka",
+    "oletus_liikesuunta": "kyykky",
+    "oletus_vasyvyysluokka": "korkea",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "KYYKKY_LINJA",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_jalkaprassi",
+    "family_nimi": "Jalkaprassi",
+    "oletus_liikeluokka": "moninivelliike_alaranka",
+    "oletus_liikesuunta": "kyykky",
+    "oletus_vasyvyysluokka": "keskitaso",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "KYYKKY_LINJA",
+    "huomio": "Oma family progression ja block state -logiikkaa varten."
+  },
+  {
+    "family_id": "family_pohjenousu",
+    "family_nimi": "Pohjenousu",
+    "oletus_liikeluokka": "eristava",
+    "oletus_liikesuunta": "pohjenousu",
+    "oletus_vasyvyysluokka": "matala",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "ERISTAVA_KESKI",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_reiden_ojennus",
+    "family_nimi": "Reiden ojennus",
+    "oletus_liikeluokka": "eristava",
+    "oletus_liikesuunta": "polven_ojennus",
+    "oletus_vasyvyysluokka": "matala",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "ERISTAVA_KESKI",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_reiden_koukistus",
+    "family_nimi": "Reiden koukistus",
+    "oletus_liikeluokka": "eristava",
+    "oletus_liikesuunta": "polven_koukistus",
+    "oletus_vasyvyysluokka": "matala",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "ERISTAVA_KESKI",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_maastaveto",
+    "family_nimi": "Maastaveto",
+    "oletus_liikeluokka": "moninivelliike_alaranka",
+    "oletus_liikesuunta": "lonkkasarana",
+    "oletus_vasyvyysluokka": "korkea",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "LONKKASARANA_RASKAS",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_penkkipunnerrus",
+    "family_nimi": "Penkkipunnerrus",
+    "oletus_liikeluokka": "moninivelliike_ylaranka",
+    "oletus_liikesuunta": "vaakapunnerrus",
+    "oletus_vasyvyysluokka": "keskitaso",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "YLAPUNNERRUS_MONINIVEL",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_vinopenkkipunnerrus",
+    "family_nimi": "Vinopenkkipunnerrus",
+    "oletus_liikeluokka": "moninivelliike_ylaranka",
+    "oletus_liikesuunta": "viistopunnerrus",
+    "oletus_vasyvyysluokka": "keskitaso",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "YLAPUNNERRUS_MONINIVEL",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_rinta_iso",
+    "family_nimi": "Rintaa eristavat liikkeet",
+    "oletus_liikeluokka": "eristava",
+    "oletus_liikesuunta": "vaakapunnerrus_eristava",
+    "oletus_vasyvyysluokka": "matala",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "ERISTAVA_KESKI",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_dippi",
+    "family_nimi": "Dippi",
+    "oletus_liikeluokka": "kehonpaino",
+    "oletus_liikesuunta": "dippi",
+    "oletus_vasyvyysluokka": "keskitaso",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "KEHONPAINO",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_selanojennus",
+    "family_nimi": "Selanojennus",
+    "oletus_liikeluokka": "kehonpaino",
+    "oletus_liikesuunta": "selanojennus",
+    "oletus_vasyvyysluokka": "keskitaso",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "KEHONPAINO",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_vatsarutistus",
+    "family_nimi": "Vatsarutistus",
+    "oletus_liikeluokka": "keskivartalo",
+    "oletus_liikesuunta": "vatsarutistus",
+    "oletus_vasyvyysluokka": "matala",
+    "oletus_rir_seuranta": "suositeltava",
+    "oletus_progressioprofiili_id": "KESKIVARTALO",
+    "huomio": ""
+  },
+  {
+    "family_id": "family_cardio",
+    "family_nimi": "Cardio",
+    "oletus_liikeluokka": "cardio",
+    "oletus_liikesuunta": "cardio",
+    "oletus_vasyvyysluokka": "korkea",
+    "oletus_rir_seuranta": "ei",
+    "oletus_progressioprofiili_id": "CARDIO",
+    "huomio": "Cardio-liikkeet lämmittelyihin ja juoksuohjelmaan"
+  }
+]
