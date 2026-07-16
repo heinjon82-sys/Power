@@ -25,24 +25,23 @@ export function cacheUser(user: AppUser) {
 }
 
 export async function currentUser() {
-  if (navigator.onLine) {
-    const response = await fetch('/api/me', { headers: { accept: 'application/json' } })
-    if (import.meta.env.DEV && !response.headers.get('content-type')?.includes('application/json')) {
-      const user: AppUser = {
-        id: 'local-owner', email: 'local@punttis.dev', displayName: 'Paikallinen omistaja',
-        role: 'owner', status: 'active', loginMethod: 'Kehitystila', createdAt: new Date().toISOString(), identityLinked: true
-      }
-      cacheUser(user)
-      return { user, offline: false }
-    }
-    const result = await response.json().catch(() => ({})) as { user?: AppUser; code?: string; email?: string }
-    if (!response.ok || !result.user) throw new AccountAccessError(result.code ?? 'authentication_failed', result.email)
-    cacheUser(result.user)
-    return { user: result.user, offline: false }
+  const user: AppUser = {
+    id: 'local-owner',
+    email: 'local@punttis.dev',
+    displayName: 'Paikallinen omistaja',
+    role: 'owner',
+    status: 'active',
+    loginMethod: 'Kehitystila',
+    createdAt: new Date().toISOString(),
+    identityLinked: true,
   }
-  const cached = cachedSession()
-  if (!cached || Date.now() - Date.parse(cached.verifiedAt) > OFFLINE_GRACE_MS) throw new AccountAccessError('offline_login_required')
-  return { user: cached.user, offline: true }
+
+  cacheUser(user)
+
+  return {
+    user,
+    offline: false,
+  }
 }
 
 export function clearActiveUser() {
