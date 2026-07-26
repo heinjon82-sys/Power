@@ -9,9 +9,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'apple-touch-icon.png', 'background-poster.webp', 'background-loop.mp4', 'exercise-image-manifest.json', 'exercises/*.webp'],
       manifest: {
-        name: 'Punttis',
-        short_name: 'Punttis',
-        description: 'Oma treeniseuranta',
+        name: 'Power',
+short_name: 'Power',
+description: 'Voimaharjoittelun päiväkirja',
         theme_color: '#090d14',
         background_color: '#090d14',
         display: 'standalone',
