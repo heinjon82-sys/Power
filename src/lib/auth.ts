@@ -51,7 +51,8 @@ export function clearActiveUser() {
 
 export function logout() {
   clearActiveUser()
-  window.location.href = '/cdn-cgi/access/logout'
+  window.location.reload()
+}
 }
 
 async function api<T>(url: string, init?: RequestInit) {
