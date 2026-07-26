@@ -53,7 +53,7 @@ export function logout() {
   clearActiveUser()
   window.location.reload()
 }
-}
+
 
 async function api<T>(url: string, init?: RequestInit) {
   const response = await fetch(url, {
