@@ -213,3 +213,21 @@ export default function App() {
   if (auth.kind === 'blocked') return <AccessGate state={auth}/>
   return <PunttisApp user={auth.user} initiallyOffline={auth.offline}/>
 }
+.hero-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.hero-logo img {
+  width: 28px;
+  height: 28px;
+}
+
+.hero-logo span {
+  color: #8B5CF6;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
