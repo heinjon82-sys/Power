@@ -93,7 +93,7 @@ function PunttisApp({ user, initiallyOffline }: { user: AppUser; initiallyOfflin
     setSyncState('syncing')
     try {
       const result = await syncChanges()
-      setSyncState(result.status === 'idle' ? 'local' : result.status)
+      setSyncState('local')
       await refresh()
     } catch { setSyncState('local') }
   }, [refresh])
@@ -102,7 +102,8 @@ function PunttisApp({ user, initiallyOffline }: { user: AppUser; initiallyOfflin
     void (async () => {
       await getDb().exercises.bulkPut(exercises)
       await refresh()
-      if (user.role === 'owner') void bootstrapExercises(exercises as unknown as Array<Record<string, unknown>>).then(doSync).catch(() => undefined)
+      if (user.role === 'owner')
+  void bootstrapExercises().then(doSync).catch(() => undefined)
       else void doSync()
     })()
   }, [doSync, refresh, user.role])
