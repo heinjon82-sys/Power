@@ -28,7 +28,7 @@ function Programs({ snapshot, onStart, onCreate, onEdit, onDelete }: {
   onDelete: (template: WorkoutTemplate) => void
 }) {
   return <div className="content programs-view">
-    <Glass className="hero" as="section"><div><p className="eyebrow">VALMIS KUN OLET</p><h2>Rakenna voimaa.<br/><em>Pidä flow.</em></h2><p>Edellinen suoritus kulkee aina mukana.</p></div><Activity className="hero-icon"/></Glass>
+    <Glass className="hero" as="section"><div><p className="eyebrow">POWER</p><h2>Tehdään PARAS Treeni.<br/><em>Pidä Flow.</em></h2><p>Voimaa joka päivä.</p></div><Activity className="hero-icon"/></Glass>
     <div className="section-header"><div><p className="eyebrow">TREENIPOHJAT</p><h2>Ohjelmasi</h2></div><button className="surface-button compact" onClick={onCreate}><Plus size={18}/> Uusi</button></div>
     {!snapshot.templates.length ? <Glass className="empty"><Dumbbell size={32}/><h3>Ensimmäinen ohjelma</h3><p>Luo ohjelma liikepankin kaikista 69 liikkeestä ja aloita treeni yhdellä painalluksella.</p><button className="primary-button" onClick={onCreate}><Plus size={18}/> Luo ohjelma</button></Glass> : <div className="program-list">{snapshot.templates.sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)).map((template) => {
       const children = snapshot.templateExercises.filter((item) => item.templateId === template.id).sort((a, b) => a.orderIndex - b.orderIndex)
@@ -178,7 +178,7 @@ function AccessGate({ state }: { state: Extract<AuthState, { kind: 'blocked' }> 
     <div className="background-media" aria-hidden="true"><video autoPlay muted loop playsInline poster="/background-poster.webp"><source src="/background-loop.mp4" type="video/mp4"/></video></div>
     <Glass className="auth-card">
       <span className="auth-icon">{offline ? <WifiOff/> : <ShieldCheck/>}</span>
-      <p className="eyebrow">PUNTTIS</p>
+      <p className="eyebrow">POWER</p>
       <h1>{offline ? 'Kirjautuminen tarvitsee verkon' : localDatabase ? 'Paikallisen datan avaaminen epäonnistui' : disabled ? 'Käyttäjä on estetty' : relink ? 'Kirjautuminen pitää yhdistää uudelleen' : 'Tälle sähköpostille ei ole kutsua'}</h1>
       <p>{offline ? 'Ensimmäinen kirjautuminen ja 30 päivän välein tehtävä varmennus vaativat verkkoyhteyden.' : localDatabase ? <>Palvelintili on kunnossa, mutta tämän laitteen tietokantaa ei voitu avata. <small>{state.detail}</small></> : disabled ? 'Omistaja on poistanut tämän käyttäjän käyttöoikeuden.' : relink ? 'Pyydä omistajaa nollaamaan tilin kirjautumissidos.' : <>{state.email && <strong>{state.email}</strong>} ei ole vielä Punttiksen hyväksytty käyttäjä. Pyydä omistajaa lisäämään sama sähköposti käyttäjälistaan.</>}</p>
       {!offline && <button className="surface-button wide" onClick={logout}><LogOut size={18}/> Kirjaudu toisella tilillä</button>}
