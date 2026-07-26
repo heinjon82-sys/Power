@@ -28,7 +28,10 @@ function Programs({ snapshot, onStart, onCreate, onEdit, onDelete }: {
   onDelete: (template: WorkoutTemplate) => void
 }) {
   return <div className="content programs-view">
-    <Glass className="hero" as="section"><div><p className="eyebrow">POWER</p><h2>Treeni päivä.<br/><em>Pidä Flow.</em></h2><p>Voimaa joka päivä.</p></div><Activity className="hero-icon"/></Glass>
+    <Glass className="hero" as="section"><div><div className="hero-logo">
+  <img src="/pwa-192.svg" alt="Power" />
+  <span>POWER</span>
+</div><h2>Treeni päivä.<br/><em>Pidä Flow.</em></h2><p>Voimaa joka päivä.</p></div><Activity className="hero-icon"/></Glass>
     <div className="section-header"><div><p className="eyebrow">TREENIPOHJAT</p><h2>Ohjelmasi</h2></div><button className="surface-button compact" onClick={onCreate}><Plus size={18}/> Uusi</button></div>
     {!snapshot.templates.length ? <Glass className="empty"><Dumbbell size={32}/><h3>Ensimmäinen ohjelma</h3><p>Luo ohjelma liikepankin kaikista 69 liikkeestä ja aloita treeni yhdellä painalluksella.</p><button className="primary-button" onClick={onCreate}><Plus size={18}/> Luo ohjelma</button></Glass> : <div className="program-list">{snapshot.templates.sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)).map((template) => {
       const children = snapshot.templateExercises.filter((item) => item.templateId === template.id).sort((a, b) => a.orderIndex - b.orderIndex)
