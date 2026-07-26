@@ -77,7 +77,7 @@ p { color: var(--muted); line-height: 1.45; }
 
 .content { position: relative; z-index: 2; display: grid; gap: 16px; max-width: 760px; margin: auto; }
 .programs-view, .history-view, .measurements-view { padding-bottom: 12px; }
-.hero { min-height: 210px; display: flex; align-items: flex-end; justify-content: space-between; overflow: hidden; padding: 25px;background: linear-gradient(135deg, rgba(28, 30, 42, .82), rgba(16, 18, 28, .82));
+.hero { min-height: 210px; display: flex; align-items: flex-end; justify-content: space-between; overflow: hidden; padding: 25px; background: linear-gradient(135deg, rgba(28, 30, 42, .82), rgba(16, 18, 28, .82)); }
 background: radial-gradient(
     circle,
     rgba(139, 92, 246, 0.28) 0%,
