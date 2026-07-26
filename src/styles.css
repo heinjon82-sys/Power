@@ -78,7 +78,12 @@ p { color: var(--muted); line-height: 1.45; }
 .content { position: relative; z-index: 2; display: grid; gap: 16px; max-width: 760px; margin: auto; }
 .programs-view, .history-view, .measurements-view { padding-bottom: 12px; }
 .hero { min-height: 210px; display: flex; align-items: flex-end; justify-content: space-between; overflow: hidden; padding: 25px; background: linear-gradient(135deg, rgba(56, 68, 88, .78), rgba(38, 30, 35, .75)); }
-.hero::after { content: ''; position: absolute; width: 230px; height: 230px; right: -100px; top: -100px; border-radius: 50%; background: radial-gradient(circle, rgba(255,132,59,.27), transparent 68%); }
+background: radial-gradient(
+    circle,
+    rgba(139, 92, 246, 0.28) 0%,
+    rgba(139, 92, 246, 0.12) 40%,
+    transparent 75%
+);
 .hero h2 { margin-top: 8px; font-size: clamp(29px, 8vw, 38px); line-height: 1.06; }
 .hero h2 em { color: var(--orange); font-style: normal; }
 .hero p { margin-top: 12px; font-size: 13px; }
@@ -330,7 +335,7 @@ p { color: var(--muted); line-height: 1.45; }
 .auth-card h1 { max-width: 360px; font-size: clamp(25px, 8vw, 38px); line-height: 1.02; }
 .auth-card p { max-width: 370px; font-size: 13px; line-height: 1.55; }
 .auth-icon { display: grid; width: 62px; height: 62px; place-items: center; color: #6fe0aa; border: 1px solid rgba(111,224,170,.28); border-radius: 21px; background: rgba(56,185,119,.12); box-shadow: inset 0 1px 0 rgba(255,255,255,.13); }
-.auth-icon svg { width: 22px; height: 22px; }
+.auth-icon svg { width: 28px; height: 28px; }
 .loading-ring { width: 35px; height: 35px; border: 3px solid rgba(255,255,255,.13); border-top-color: #f39b60; border-radius: 50%; animation: spin .8s linear infinite; }
 .user-management { gap: 14px; }
 .invite-card { display: grid; gap: 12px; padding: 16px; }
