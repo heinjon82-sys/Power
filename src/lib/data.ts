@@ -91,11 +91,31 @@ export async function createSessionFromTemplate(template: WorkoutTemplate, snaps
     }
     await mutate('sessionExercises', 'session_exercises', sessionExercise)
     const blueprint = snapshot.templateSets
-      .filter((set) => set.templateExerciseId === item.id)
-      .sort((a, b) => a.setIndex - b.setIndex)const previous = await previousSets(exercise.id)
+  .filter((set) => set.templateExerciseId === item.id)
+  .sort((a, b) => a.setIndex - b.setIndex)
+
+const previous = await previousSets(exercise.id)
 const previousLastSet = previous[previous.length - 1]
 
 for (const [setIndex, set] of blueprint.entries()) {
+  const suggestion = suggestedSet(
+    previous[setIndex],
+    {
+      plannedLoad: set.targetLoad,
+      plannedReps: set.targetReps
+    },
+    previousLastSet
+  )
+
+  await mutate('sessionSets', 'session_sets', {
+    id: id(),
+    sessionExerciseId: sessionExercise.id,
+    setIndex,
+    isCompleted: false,
+    updatedAt: timestamp,
+    ...suggestion
+  })
+}
   const suggestion = suggestedSet(
     previous[setIndex],
     {
