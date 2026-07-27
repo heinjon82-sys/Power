@@ -51,17 +51,33 @@ function ExerciseCard({ exercise, info, sets, onRefresh, onStartRest, onAddSet, 
 const firstSet = [...sets].sort((a, b) => a.setIndex - b.setIndex)[0]
 const workWeight = firstSet?.plannedLoad ?? firstSet?.actualLoad ?? 0
 
+const isLegPress = exercise.nameSnapshot
+  .toLowerCase()
+  .includes('jalkaprässi')
+
 const warmupSets = workWeight > 20
-  ? [
-      { label: 'Tanko', weight: 20, reps: 10 },
-      { weight: roundToPlateWeight(workWeight * 0.5), reps: 7 },
-      { weight: roundToPlateWeight(workWeight * 0.7), reps: 4 },
-      { weight: roundToPlateWeight(workWeight * 0.85), reps: 2 },
-      { weight: roundToPlateWeight(workWeight * 0.93), reps: 1 }
-    ].filter((item, index, list) =>
-      item.weight < workWeight &&
-      list.findIndex((candidate) => candidate.weight === item.weight) === index
-    )
+  ? isLegPress
+    ? [
+        { weight: roundToPlateWeight(workWeight * 0.5), reps: 10 },
+        { weight: roundToPlateWeight(workWeight * 0.7), reps: 6 },
+        { weight: roundToPlateWeight(workWeight * 0.85), reps: 3 },
+        { weight: roundToPlateWeight(workWeight * 0.93), reps: 1 }
+      ].filter(
+        (item, index, list) =>
+          item.weight < workWeight &&
+          list.findIndex(c => c.weight === item.weight) === index
+      )
+    : [
+        { label: 'Tanko', weight: 20, reps: 10 },
+        { weight: roundToPlateWeight(workWeight * 0.5), reps: 7 },
+        { weight: roundToPlateWeight(workWeight * 0.7), reps: 4 },
+        { weight: roundToPlateWeight(workWeight * 0.85), reps: 2 },
+        { weight: roundToPlateWeight(workWeight * 0.93), reps: 1 }
+      ].filter(
+        (item, index, list) =>
+          item.weight < workWeight &&
+          list.findIndex(c => c.weight === item.weight) === index
+      )
   : []
   const localDraft = (set: SessionSet, load?: number, repetitions?: number) => {
     void getDb().sessionSets.put({ ...set, actualLoad: load, actualReps: repetitions, updatedAt: now() })
