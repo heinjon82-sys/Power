@@ -458,3 +458,38 @@ background: radial-gradient(
   color: #86efac;
   opacity: .78;
 }
+.records-card {
+  margin: 18px 0;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.records-card h3 {
+  margin: 0 0 12px;
+  font-size: 16px;
+}
+
+.records-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.records-grid > div {
+  padding: 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.records-grid span {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  opacity: 0.72;
+}
+
+.records-grid strong {
+  font-size: 17px;
+}
