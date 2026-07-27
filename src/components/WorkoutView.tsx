@@ -128,7 +128,7 @@ const warmupSets = workWeight > 20
 
     {warmupSets.length > 0 ? (
       <>
-      {warmupSets.map((item, index) => (
+{warmupSets.map((item, index) => (
   <button
     type="button"
     className={`warmup-set ${
@@ -139,19 +139,22 @@ const warmupSets = workWeight > 20
           : ''
     }`}
     key={`${item.weight}-${item.reps}`}
-   onClick={() => {
-  if (index < warmupStep) return
+    onClick={() => {
+      if (index < warmupStep) return
 
-  if (index === warmupSets.length - 1) {
-    setWarmupOpen(false)
-    setWarmupStep(0)
-  } else {
-    setWarmupStep((current) =>
-      index === current ? current + 1 : index
-    )
-  }
-}}
-    }
+      if (
+        index === warmupStep &&
+        index === warmupSets.length - 1
+      ) {
+        setWarmupOpen(false)
+        setWarmupStep(0)
+        return
+      }
+
+      setWarmupStep((current) =>
+        index === current ? current + 1 : index
+      )
+    }}
   >
     <span>
       {'label' in item && typeof item.label === 'string'
