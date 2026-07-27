@@ -31,11 +31,11 @@ export const suggestedSet = (
   fallback: Pick<SessionSet, 'plannedLoad' | 'plannedReps'>,
   progressionSource?: Pick<SessionSet, 'actualLoad' | 'actualReps'>
 ) => {
-  const previousLoad = previous?.actualLoad ?? fallback.plannedLoad
-  const targetReps = fallback.plannedReps
+  const previousLoad = previous?.actualLoad ?? fallback.plannedLoad ?? 0
+  const targetReps = fallback.plannedReps ?? 0
   const completedReps = progressionSource?.actualReps
 
-  let plannedLoad = previousLoad
+  let plannedLoad: number | null = previousLoad
 
   if (
     previousLoad !== null &&
