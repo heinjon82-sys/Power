@@ -116,20 +116,7 @@ for (const [setIndex, set] of blueprint.entries()) {
     ...suggestion
   })
 }
-  const suggestion = suggestedSet(
-    previous[setIndex],
-    {
-      plannedLoad: set.targetLoad,
-      plannedReps: set.targetReps
-    },
-    previousLastSet
-  )targetReps })
-      await mutate('sessionSets', 'session_sets', {
-        id: id(), sessionExerciseId: sessionExercise.id, setIndex, isCompleted: false,
-        updatedAt: timestamp, ...suggestion
-      })
-    }
-  }
+    
   const runtime: SessionRuntime = { id: session.id, sessionId: session.id, updatedAt: timestamp }
   await mutate('sessionRuntime', 'session_runtime', runtime)
   return session
