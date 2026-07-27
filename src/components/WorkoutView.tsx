@@ -210,7 +210,8 @@ export function WorkoutView({ session, snapshot, onDismiss, onRefresh, onComplet
   exercise: SessionExercise,
   repetitions?: number
 ) => {
-  const current = Date.now()
+const current = Date.now()
+const exerciseName = exercise.nameSnapshot.toLowerCase()
 const isBench = exerciseName.includes('penkkipunnerrus')
 
 let restSeconds = exercise.restSeconds ?? 120
@@ -221,8 +222,6 @@ if (isBench) {
       ? 180
       : 120
 }
-    restSeconds = 180
-  }
 
   setClock(current)
 
