@@ -114,8 +114,11 @@ for (const [setIndex, set] of blueprint.entries()) {
     isCompleted: false,
     updatedAt: timestamp,
     ...suggestion
-  })
+    })
+  }
 }
+
+   
     
   const runtime: SessionRuntime = { id: session.id, sessionId: session.id, updatedAt: timestamp }
   await mutate('sessionRuntime', 'session_runtime', runtime)
