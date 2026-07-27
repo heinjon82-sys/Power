@@ -71,3 +71,19 @@ export const addedSetSuggestion = (sets: SessionSet[]) => {
     previousReps: last?.previousReps
   }
 }
+export const heaviestSet = (sets: SessionSet[]) =>
+  [...sets]
+    .filter(set => set.actualLoad != null && set.actualReps != null)
+    .sort((a, b) => (b.actualLoad ?? 0) - (a.actualLoad ?? 0))[0]
+
+export const bestSetByReps = (
+  sets: SessionSet[],
+  reps: number
+) =>
+  [...sets]
+    .filter(
+      set =>
+        set.actualLoad != null &&
+        set.actualReps === reps
+    )
+    .sort((a, b) => (b.actualLoad ?? 0) - (a.actualLoad ?? 0))[0]
