@@ -384,7 +384,40 @@ background: radial-gradient(
   .rest-dock { right: 9px; left: 9px; }
   .rest-dock > div button { padding: 0 7px; }
 }
+.warmup-button {
+  width: 100%;
+  min-height: 42px;
+  margin: 10px 0;
+  border: 1px solid rgba(139, 92, 246, .4);
+  border-radius: 13px;
+  background: rgba(139, 92, 246, .12);
+  color: #f8fafc;
+  font-weight: 750;
+}
 
+.warmup-card {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+  padding: 14px;
+  border: 1px solid rgba(139, 92, 246, .32);
+  border-radius: 15px;
+  background: rgba(11, 11, 16, .72);
+}
+
+.warmup-set {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, .08);
+}
+
+.warmup-work-weight {
+  margin-top: 4px;
+  padding-top: 8px;
+  color: #a855f7;
+  font-weight: 800;
+}
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .background-media video { display: none; }
