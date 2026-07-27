@@ -85,7 +85,16 @@ const warmupSets = workWeight > 20
     await onRefresh()
   }
   return <Glass id={`exercise-${exercise.id}`} className="exercise-card" as="article">
-    <div className="exercise-title"><ExerciseAvatar exercise={info} size="large"/><div><h2>{exercise.nameSnapshot}</h2><p><TimerReset size={15}/> Lepo {exercise.restSeconds >= 60 ? `${Math.floor(exercise.restSeconds / 60)} min${exercise.restSeconds % 60 ? ` ${exercise.restSeconds % 60} s` : ''}` : `${exercise.restSeconds} s`}</p></div><KebabMenu items={[
+    <div className="exercise-title"><ExerciseAvatar exercise={info} size="large"/><div><h2>{exercise.nameSnapshot}</h2><p><button
+  type="button"
+  className="warmup-icon"
+  onClick={() => setWarmupOpen((open) => !open)}
+  title="Lämmittely"
+>
+  🔥
+</button>
+
+<TimerReset size={15}/> Lepo {exercise.restSeconds >= 60 ? `${Math.floor(exercise.restSeconds / 60)} min${exercise.restSeconds % 60 ? ` ${exercise.restSeconds % 60} s` : ''}` : `${exercise.restSeconds} s`}</p></div><KebabMenu items={[
       { label: 'Lisää sarja', action: () => void onAddSet() },
       { label: 'Muuta lepoaikaa', action: onEditRest },
       { label: 'Muistiinpano', action: onEditNotes },
