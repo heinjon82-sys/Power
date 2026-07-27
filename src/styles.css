@@ -422,3 +422,12 @@ background: radial-gradient(
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .background-media video { display: none; }
 }
+.warmup-icon {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: 8px;
+  padding: 4px;
+}
