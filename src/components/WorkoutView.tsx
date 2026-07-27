@@ -14,7 +14,9 @@ function parseNumber(value: string) {
   const parsed = Number(value.replace(',', '.'))
   return Number.isFinite(parsed) && value.trim() !== '' ? parsed : undefined
 }
-
+function roundToPlateWeight(weight: number) {
+  return Math.round(weight / 2.5) * 2.5
+}
 function SetRow({ set, onDraft, onLocalDraft, onToggle }: {
   set: SessionSet
   onLocalDraft: (set: SessionSet, load?: number, repetitions?: number) => void
@@ -44,7 +46,23 @@ function ExerciseCard({ exercise, info, sets, onRefresh, onStartRest, onAddSet, 
   onEditNotes: () => void
   onHistory: () => void
   onRemove: () => void
-}) {
+}) {const [warmupOpen, setWarmupOpen] = useState(false)
+
+const firstSet = [...sets].sort((a, b) => a.setIndex - b.setIndex)[0]
+const workWeight = firstSet?.plannedLoad ?? firstSet?.actualLoad ?? 0
+
+const warmupSets = workWeight > 20
+  ? [
+      { label: 'Tanko', weight: 20, reps: 10 },
+      { weight: roundToPlateWeight(workWeight * 0.5), reps: 7 },
+      { weight: roundToPlateWeight(workWeight * 0.7), reps: 4 },
+      { weight: roundToPlateWeight(workWeight * 0.85), reps: 2 },
+      { weight: roundToPlateWeight(workWeight * 0.93), reps: 1 }
+    ].filter((item, index, list) =>
+      item.weight < workWeight &&
+      list.findIndex((candidate) => candidate.weight === item.weight) === index
+    )
+  : []
   const localDraft = (set: SessionSet, load?: number, repetitions?: number) => {
     void getDb().sessionSets.put({ ...set, actualLoad: load, actualReps: repetitions, updatedAt: now() })
   }
@@ -75,6 +93,36 @@ function ExerciseCard({ exercise, info, sets, onRefresh, onStartRest, onAddSet, 
       { label: 'Poista liike treenistä', action: onRemove, danger: true }
     ]}/></div>
     {exercise.notes && <p className="exercise-note">{exercise.notes}</p>}
+    <button
+  type="button"
+  className="warmup-button"
+  onClick={() => setWarmupOpen((open) => !open)}
+>
+  🔥 {warmupOpen ? 'Piilota lämmittely' : 'Näytä lämmittely'}
+</button>
+
+{warmupOpen && (
+  <div className="warmup-card">
+    <strong>Lämmittely</strong>
+
+    {warmupSets.length > 0 ? (
+      <>
+        {warmupSets.map((item) => (
+          <div className="warmup-set" key={`${item.weight}-${item.reps}`}>
+            <span>{item.label ?? `${item.weight} kg`}</span>
+            <span>× {item.reps}</span>
+          </div>
+        ))}
+
+        <div className="warmup-work-weight">
+          Työsarjat alkavat: {workWeight} kg
+        </div>
+      </>
+    ) : (
+      <p>Anna ensimmäiselle työsarjalle paino.</p>
+    )}
+  </div>
+)}
     <div className="set-table"><div className="set-head"><span>SARJA</span><span>KG</span><span>TOISTOT</span><span/></div>{[...sets].sort((a, b) => a.setIndex - b.setIndex).map((set) => <SetRow key={set.id} set={set} onLocalDraft={localDraft} onDraft={saveDraft} onToggle={toggle}/>)}</div>
   </Glass>
 }
