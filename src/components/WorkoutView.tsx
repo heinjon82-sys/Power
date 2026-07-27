@@ -211,22 +211,16 @@ export function WorkoutView({ session, snapshot, onDismiss, onRefresh, onComplet
   repetitions?: number
 ) => {
   const current = Date.now()
-  const exerciseName = exercise.nameSnapshot.toLowerCase()
+const isBench = exerciseName.includes('penkkipunnerrus')
 
-  const isBench = exerciseName.includes('penkkipunnerrus')
-  const isLegPress = exerciseName.includes('jalkaprässi')
-  const isSmithSquat =
-    exerciseName.includes('smith') &&
-    exerciseName.includes('kyykky')
+let restSeconds = exercise.restSeconds ?? 120
 
-  let restSeconds = 120
-
-  if (isBench) {
-    restSeconds =
-      repetitions !== undefined && repetitions >= 4
-        ? 180
-        : 120
-  } else if (isLegPress || isSmithSquat) {
+if (isBench) {
+  restSeconds =
+    repetitions !== undefined && repetitions >= 4
+      ? 180
+      : 120
+}
     restSeconds = 180
   }
 
