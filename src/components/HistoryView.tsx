@@ -45,12 +45,70 @@ function ExerciseProgress({ exercise, snapshot, onDismiss }: { exercise: Exercis
   const latest = points.at(-1)
   const best = points.length ? Math.max(...points.map((point) => point[metric])) : 0
   const suffix = metric === 'reps' ? '' : ' kg'
+const allSets = points.flatMap((point) => point.sets)
 
+const heaviest = [...allSets]
+  .filter((set) => set.actualLoad != null && set.actualReps != null)
+  .sort((a, b) => (b.actualLoad ?? 0) - (a.actualLoad ?? 0))[0]
+
+const best5 = [...allSets]
+  .filter((set) => set.actualReps === 5 && set.actualLoad != null)
+  .sort((a, b) => (b.actualLoad ?? 0) - (a.actualLoad ?? 0))[0]
+
+const best8 = [...allSets]
+  .filter((set) => set.actualReps === 8 && set.actualLoad != null)
+  .sort((a, b) => (b.actualLoad ?? 0) - (a.actualLoad ?? 0))[0]
+
+const best10 = [...allSets]
+  .filter((set) => set.actualReps === 10 && set.actualLoad != null)
+  .sort((a, b) => (b.actualLoad ?? 0) - (a.actualLoad ?? 0))[0]
+  
   return <Modal title={exercise.name} onDismiss={onDismiss} className="detail-modal">
     <div className="exercise-detail-hero">
       <img src={exercise.imageFullPath} alt={exercise.name} onError={(event) => { event.currentTarget.src = exercise.imageThumbPath }}/>
       <div><p className="eyebrow">{exercise.familyName}</p><h3>{exercise.name}</h3><p>{exercise.primaryMuscles.join(', ')}</p></div>
     </div>
+    <div className="records-card">
+  <h3>🏆 Ennätykset</h3>
+
+  <div className="records-grid">
+    <div>
+      <span>Suurin paino</span>
+      <strong>
+        {heaviest
+          ? `${kg(heaviest.actualLoad)} × ${heaviest.actualReps}`
+          : '–'}
+      </strong>
+    </div>
+
+    <div>
+      <span>Paras 5</span>
+      <strong>
+        {best5
+          ? `${kg(best5.actualLoad)} × 5`
+          : '–'}
+      </strong>
+    </div>
+
+    <div>
+      <span>Paras 8</span>
+      <strong>
+        {best8
+          ? `${kg(best8.actualLoad)} × 8`
+          : '–'}
+      </strong>
+    </div>
+
+    <div>
+      <span>Paras 10</span>
+      <strong>
+        {best10
+          ? `${kg(best10.actualLoad)} × 10`
+          : '–'}
+      </strong>
+    </div>
+  </div>
+</div>
     <RangePills options={rangeOptions} value={range} onChange={setRange}/>
     <RangePills options={metricOptions} value={metric} onChange={setMetric}/>
     <Glass className="chart-card inset" as="div">
