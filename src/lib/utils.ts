@@ -28,13 +28,37 @@ export const volume = (sets: Pick<SessionSet, 'actualLoad' | 'actualReps' | 'isC
 
 export const suggestedSet = (
   previous: Pick<SessionSet, 'actualLoad' | 'actualReps'> | undefined,
-  fallback: Pick<SessionSet, 'plannedLoad' | 'plannedReps'>
-) => ({
-  plannedLoad: previous?.actualLoad ?? fallback.plannedLoad,
-  plannedReps: previous?.actualReps ?? fallback.plannedReps,
-  previousLoad: previous?.actualLoad,
-  previousReps: previous?.actualReps
-})
+  fallback: Pick<SessionSet, 'plannedLoad' | 'plannedReps'>,
+  progressionSource?: Pick<SessionSet, 'actualLoad' | 'actualReps'>
+) => {
+  const previousLoad = previous?.actualLoad ?? fallback.plannedLoad
+  const targetReps = fallback.plannedReps
+  const completedReps = progressionSource?.actualReps
+
+  let plannedLoad = previousLoad
+
+  if (
+    previousLoad !== null &&
+    targetReps !== null &&
+    completedReps !== null &&
+    completedReps !== undefined
+  ) {
+    const missingReps = targetReps - completedReps
+
+    if (missingReps <= 0) {
+      plannedLoad = previousLoad + 2.5
+    } else if (missingReps >= 2) {
+      plannedLoad = Math.max(0, previousLoad - 2.5)
+    }
+  }
+
+  return {
+    plannedLoad,
+    plannedReps: fallback.plannedReps,
+    previousLoad: previous?.actualLoad,
+    previousReps: previous?.actualReps
+  }
+}
 
 export const addedSetSuggestion = (sets: SessionSet[]) => {
   const ordered = [...sets].sort((a, b) => a.setIndex - b.setIndex)
