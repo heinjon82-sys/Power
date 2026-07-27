@@ -204,11 +204,39 @@ export function WorkoutView({ session, snapshot, onDismiss, onRefresh, onComplet
     await mutate('sessionRuntime', 'session_runtime', { ...base, ...changes, updatedAt: now() }, base.updatedAt)
     await onRefresh()
   }
-  const startRest = (exercise: SessionExercise) => {
-    const current = Date.now()
-    setClock(current)
-    return updateRuntime({ activeExerciseId: exercise.id, restTimerEndsAt: new Date(current + exercise.restSeconds * 1000).toISOString() })
+ const startRest = (
+  exercise: SessionExercise,
+  repetitions?: number
+) => {
+  const current = Date.now()
+  const exerciseName = exercise.nameSnapshot.toLowerCase()
+
+  const isBench = exerciseName.includes('penkkipunnerrus')
+  const isLegPress = exerciseName.includes('jalkaprässi')
+  const isSmithSquat =
+    exerciseName.includes('smith') &&
+    exerciseName.includes('kyykky')
+
+  let restSeconds = 120
+
+  if (isBench) {
+    restSeconds =
+      repetitions !== undefined && repetitions >= 4
+        ? 180
+        : 120
+  } else if (isLegPress || isSmithSquat) {
+    restSeconds = 180
   }
+
+  setClock(current)
+
+  return updateRuntime({
+    activeExerciseId: exercise.id,
+    restTimerEndsAt: new Date(
+      current + restSeconds * 1000
+    ).toISOString()
+  })
+}
   const adjustRest = (delta: number) => {
     const currentEnd = runtime?.restTimerEndsAt ? new Date(runtime.restTimerEndsAt).getTime() : Date.now()
     const next = Math.max(Date.now(), currentEnd + delta * 1000)
