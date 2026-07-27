@@ -139,22 +139,15 @@ const warmupSets = workWeight > 20
           : ''
     }`}
     key={`${item.weight}-${item.reps}`}
-    onClick={() => {
-      if (index < warmupStep) return
+ onClick={() => {
+  if (index === warmupSets.length - 1) {
+    setWarmupStep(0)
+    setWarmupOpen(false)
+    return
+  }
 
-      if (
-        index === warmupStep &&
-        index === warmupSets.length - 1
-      ) {
-        setWarmupOpen(false)
-        setWarmupStep(0)
-        return
-      }
-
-      setWarmupStep((current) =>
-        index === current ? current + 1 : index
-      )
-    }}
+  setWarmupStep(index + 1)
+}}
   >
     <span>
       {'label' in item && typeof item.label === 'string'
