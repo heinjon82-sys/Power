@@ -122,6 +122,7 @@ for (const [setIndex, set] of blueprint.entries()) {
   return session
 }
 
+
 export async function softDeleteTemplate(template: WorkoutTemplate, snapshot: Snapshot) {
   const timestamp = now()
   await mutate('workoutTemplates', 'workout_templates', { ...template, deletedAt: timestamp, updatedAt: timestamp }, template.updatedAt)
