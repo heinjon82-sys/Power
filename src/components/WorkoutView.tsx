@@ -46,7 +46,7 @@ function ExerciseCard({ exercise, info, sets, onRefresh, onStartRest, onAddSet, 
   onEditNotes: () => void
   onHistory: () => void
   onRemove: () => void
-}) {const [warmupOpen, setWarmupOpen] = useState(false)
+}) {const const [warmupStep, setWarmupStep] = useState(0)
 
 const firstSet = [...sets].sort((a, b) => a.setIndex - b.setIndex)[0]
 const workWeight = firstSet?.plannedLoad ?? firstSet?.actualLoad ?? 0
@@ -126,12 +126,34 @@ const warmupSets = workWeight > 20
 
     {warmupSets.length > 0 ? (
       <>
-        {warmupSets.map((item) => (
-          <div className="warmup-set" key={`${item.weight}-${item.reps}`}>
-            <span>{'label' in item && typeof item.label === 'string' ? item.label : `${item.weight} kg`}</span>
-            <span>× {item.reps}</span>
-          </div>
-        ))}
+      {warmupSets.map((item, index) => (
+  <button
+    type="button"
+    className={`warmup-set ${
+      index < warmupStep
+        ? 'warmup-set-done'
+        : index === warmupStep
+          ? 'warmup-set-active'
+          : ''
+    }`}
+    key={`${item.weight}-${item.reps}`}
+    onClick={() =>
+      setWarmupStep((current) =>
+        index === current ? current + 1 : index
+      )
+    }
+  >
+    <span>
+      {'label' in item && typeof item.label === 'string'
+        ? item.label
+        : `${item.weight} kg`}
+    </span>
+
+    <span>
+      {index < warmupStep ? '✓' : `× ${item.reps}`}
+    </span>
+  </button>
+))}
 
         <div className="warmup-work-weight">
           Työsarjat alkavat: {workWeight} kg
