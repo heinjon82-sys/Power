@@ -46,7 +46,9 @@ function ExerciseCard({ exercise, info, sets, onRefresh, onStartRest, onAddSet, 
   onEditNotes: () => void
   onHistory: () => void
   onRemove: () => void
-}) {const const [warmupStep, setWarmupStep] = useState(0)
+}) {
+  const [warmupOpen, setWarmupOpen] = useState(false)
+  const [warmupStep, setWarmupStep] = useState(0)
 
 const firstSet = [...sets].sort((a, b) => a.setIndex - b.setIndex)[0]
 const workWeight = firstSet?.plannedLoad ?? firstSet?.actualLoad ?? 0
