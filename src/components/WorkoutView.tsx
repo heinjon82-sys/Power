@@ -118,13 +118,7 @@ const warmupSets = workWeight > 20
       { label: 'Poista liike treenistä', action: onRemove, danger: true }
     ]}/></div>
     {exercise.notes && <p className="exercise-note">{exercise.notes}</p>}
-    <button
-  type="button"
-  className="warmup-button"
-  onClick={() => setWarmupOpen((open) => !open)}
->
-  🔥 {warmupOpen ? 'Piilota lämmittely' : 'Näytä lämmittely'}
-</button>
+ 
 
 {warmupOpen && (
   <div className="warmup-card">
