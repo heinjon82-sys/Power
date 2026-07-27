@@ -40,7 +40,7 @@ function ExerciseCard({ exercise, info, sets, onRefresh, onStartRest, onAddSet, 
   info?: Exercise
   sets: SessionSet[]
   onRefresh: () => Promise<void>
-  onStartRest: () => Promise<void>
+  onStartRest: (repetitions?: number) => Promise<void>
   onAddSet: () => Promise<void>
   onEditRest: () => void
   onEditNotes: () => void
@@ -99,7 +99,7 @@ const warmupSets = workWeight > 20
     }
     await mutate('sessionSets', 'session_sets', updated, set.updatedAt)
     navigator.vibrate?.(10)
-    if (completing) {
+if (completing) {
   await onStartRest(updated.actualReps ?? undefined)
 }
     await onRefresh()
