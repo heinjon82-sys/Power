@@ -134,7 +134,7 @@ const warmupSets = workWeight > 20
       <>
         {warmupSets.map((item) => (
           <div className="warmup-set" key={`${item.weight}-${item.reps}`}>
-            <span>{item.label ?? `${item.weight} kg`}</span>
+            <span>{'label' in item ? item.label : `${item.weight} kg`}</span>
             <span>× {item.reps}</span>
           </div>
         ))}
