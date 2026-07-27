@@ -99,7 +99,9 @@ const warmupSets = workWeight > 20
     }
     await mutate('sessionSets', 'session_sets', updated, set.updatedAt)
     navigator.vibrate?.(10)
-    if (completing) await onStartRest()
+    if (completing) {
+  await onStartRest(updated.actualReps ?? undefined)
+}
     await onRefresh()
   }
   return <Glass id={`exercise-${exercise.id}`} className="exercise-card" as="article">
