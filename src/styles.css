@@ -431,3 +431,30 @@ background: radial-gradient(
   margin-right: 8px;
   padding: 4px;
 }
+.warmup-set {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 4px;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .08);
+  background: transparent;
+  color: #f8fafc;
+  font: inherit;
+  text-align: left;
+}
+
+.warmup-set-active {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  background: rgba(139, 92, 246, .18);
+  color: #c4b5fd;
+  font-weight: 800;
+}
+
+.warmup-set-done {
+  color: #86efac;
+  opacity: .78;
+}
